@@ -1,0 +1,24 @@
+h2{font-weight:bold;text-transform:none;}
+h2.section_title_white{margin-bottom:0;}
+h3{text-transform:none;}
+#trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
+.cbp-wrapper{visibility:visible;}
+.content_fullwidth a{color:#454545;text-decoration:underline;}
+.content_fullwidth a:hover{color: #6b798f;text-decoration: none;}
+.content_fullwidth li{padding-bottom:.75em;}
+.content_fullwidth ul{padding-left:2.5em;}
+.features_sec39 .rightsection{background-image:url(../images/sidebar_line.png);}
+.features_sec39 .rightsection ul{margin-left:30px;margin-top:15px;}
+.features_sec39 .rightsection li.icon{height:20px;width:20px;}
+.features_sec39 .rightsection li.icon i{font-size:15px;height:20px;line-height:19px;width:20px;}
+.footer1 {background-color: #425363;}
+.footer1, .footer1  a{color:#fff;text-decoration:none;}
+.footer1 li{font-weight:300;}
+.latest_works{background-image:none;}
+.latest_works a{color:#fff;}
+.latest_works h3{color:#fff;}
+.latest_works p{color:#fff;}
+.logo{width:70%;}
+.features_sec39 .limage{margin-top:0;}
+.one_half img{height:auto;width:100%;}
+.searchform{float:right;padding-top:5px;}

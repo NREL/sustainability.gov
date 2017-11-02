@@ -1,0 +1,84 @@
+/*	Responsive Tabs v1.0, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
+//	======================================================================================= */
+
+/*	Table of Contents
+//	==================================================
+//		#Reset
+//		#Themes
+
+
+/*	#Reset
+//	================================================== */
+
+.tabs {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.tabs {
+	float: left;
+	width: 22%;
+	border: 1px solid #eee;
+}
+.tabs li {
+	margin: 0;
+	text-align: left;
+}
+.tabs li a {
+	color: #454545;
+	display: block;
+	height: 40px;
+	padding: 0 0px 0 18px;
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 14px;
+	border-bottom: 1px solid #eee;
+}
+.tabs li.active a {
+	color: #fff;
+	background-color: #fc4242;
+}
+.tabs-content {
+	float: left;
+	width: 71%;
+	padding: 2.5% 3% 4% 3%;
+	text-align: left;
+	margin-bottom: 40px;
+	border: 1px solid #eee;
+}
+.tabs-content img {
+	width: 100%;
+}
+.tabs-content img.img_left2 {
+	width: auto;
+}
+.tabs-content .tabs-panel {
+	padding: 20px;
+}
+.tabs-content .tabs-panel .tab-title {
+	display: none;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+ul.tabs {
+	width: 32%;
+}
+.tabs-content {
+	width: 61%;
+	padding: 2.5% 3% 4% 3%;
+}
+
+}
+
+
+@media only screen and (max-width: 479px){
+ul.tabs {
+	width: 100%;
+}
+.tabs-content {
+	width: 94%;
+	padding: 2.5% 3% 4% 3%;
+}
+
+	
+}
