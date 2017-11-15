@@ -100,19 +100,8 @@ if( isset($_POST['email']) )
 		<div class="container">
     	<div class="content_fullwidth">
       	<div class="one_half">
-        	<h2>Thank You for Contacting the Office of Federal Sustainability</h2><p>We'll be in touch shortly.</p>
+        	<h2>Thank you for contacting the Office of Federal Sustainability</h2>
       	</div>
-				<div class="one_half last">
-					<div class="address_info">
-						<h3>Address <i>Info</i></h3>
-	          <ul>
-	            <li> <strong>Council on Environmental Quality</strong><br />
-	              730 Jackson Place<br />Washington, D.C.</li>
-	          </ul>
-        	</div>
-					<h3>Find the <strong>Address</strong></h3>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.0651630393477!2d-77.04058958474154!3d38.89962515441803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bc6fce7b63%3A0x20e185642b24244a!2s730+Jackson+Pl+NW%2C+Washington%2C+DC+20506!5e0!3m2!1sen!2sus!4v1507749248718" style="width:100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
     	</div>
     </div>
 		<div class="clearfix margin_top7"></div>
@@ -120,7 +109,7 @@ if( isset($_POST['email']) )
 				<div class="container">
 			   <div class="one_third">
 			    <ul>
-			      <li><img src="images/ofs_ceq_sm.png" alt="CEQ Logo" /><br /> 730 Jackson Place<br />Washington, D.C.<br /><br /></li>
+						<li><img src="images/ofs_ceq_sm.png" alt="CEQ Logo" /><br /> 730 Jackson Place N.W.<br />Washington, D.C. 20506<br /><br /></li>
 			    </ul>     
 				</div>
 		    <div class="one_fourth" style="padding-top:23px; margin-left:20px">
