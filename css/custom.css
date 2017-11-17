@@ -9,6 +9,7 @@ h3{text-transform:none;}
 .content_fullwidth ul{padding-left:2.5em;}
 .features_sec39 .one_half{text-align:left;}
 .features_sec39 h4 {text-transform:none;}
+.features_sec39 h2.section_title_drakgray {font-size:27px;line-height: 35px;margin-bottom: 40px;font-style: normal;font-weight: bold; text-transform: none;}
 .features_sec39 .rightsection{background-image:url(../images/sidebar_line.png);}
 .features_sec39 .rightsection ul{margin-left:30px;margin-top:15px;}
 .features_sec39 .rightsection li.icon{height:20px;width:20px;}
@@ -26,6 +27,7 @@ h3{text-transform:none;}
 .one_half img{height:auto;width:100%;}
 .one_half p{text-align:left;}
 .searchform{float:right;padding-top:5px;}
+.sky-form header{font-size:27px;font-weight:bold;text-transform:none;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
 	#trueHeader #logo {background-size:contain;}
