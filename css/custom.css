@@ -1,6 +1,7 @@
 h2{font-weight:bold;text-transform:none;}
 h2.section_title_white{margin-bottom:0;}
 h3{text-transform:none;}
+ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";margin-left:-1.5em;padding-right:.5em;}
 #trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
 .cbp-wrapper{visibility:visible;}
 .content_fullwidth a{color:#454545;text-decoration:underline;}

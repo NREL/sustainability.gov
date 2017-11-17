@@ -99,9 +99,7 @@ if( isset($_POST['email']) )
 		<div class="clearfix"></div>
 		<div class="container">
     	<div class="content_fullwidth">
-      	<div class="one_half">
         	<h2>Thank you for contacting the Office of Federal Sustainability</h2>
-      	</div>
     	</div>
     </div>
 		<div class="clearfix margin_top7"></div>
