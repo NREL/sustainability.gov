@@ -16,6 +16,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .features_sec39 .rightsection li.icon{height:20px;width:20px;}
 .features_sec39 .rightsection li.icon i{font-size:15px;height:20px;line-height:19px;width:20px;}
 .features_sec39 .rightsection h3{font-size:18px;}
+.features_sec39 .rightsection ul:hover i{background-color:#272727;}
 .footer1 {background-color: #425363;}
 .footer1, .footer1  a{color:#fff;text-decoration:none;}
 .footer1 li{font-weight:300;}
