@@ -8,7 +8,6 @@
 			$trigger   = $('.acc-trigger');
 
 		$container.hide();
-		$trigger.first().addClass('active').next().show();
 
 		var fullWidth = $container.outerWidth(true);
 		$trigger.css('width', fullWidth);
@@ -16,7 +15,6 @@
 		
 		$trigger.on('click', function(e) {
 			if( $(this).next().is(':hidden') ) {
-				$trigger.removeClass('active').next().slideUp(300);
 				$(this).toggleClass('active').next().slideDown(300);
 			}
 			e.preventDefault();
