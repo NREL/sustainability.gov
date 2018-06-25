@@ -37,6 +37,9 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .one_half img{height:auto;width:100%;}
 .one_half p{text-align:left;}
 .searchform{float:right;padding-top:5px;}
+.sip{margin:0 auto;width:1000px;}
+.sip h2{padding-top:120px;font-size:1px;height:1px;}
+.sip h2.notop{padding-top:0px;}
 .sky-form header{font-size:27px;font-weight:bold;text-transform:none;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
