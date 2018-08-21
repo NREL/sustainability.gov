@@ -5,14 +5,18 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 #trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
 .accordion-container{background-color:#fbfbfb;border:1px solid #ccc;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:5px;padding:10px 15px;}
 .accordion-container .header{font-size: 22px;line-height: 25px;margin-bottom: 20px;font-style: normal;text-decoration:none;}
+.backtotop{padding:10px 0 0;text-align:right;}
+.backtotop a:before{font-family:FontAwesome;color:#454545;content: "\f139";margin-left:-1.5em;padding-right:.5em;}
 .callout{background-color:#fbfbfb;border:1px solid #ccc;float:right;margin:0 0 10px 10px;padding:20px;width:25%;}
 .callout img{width:100%;}
 .callout h3 a{font-size:18px;text-decoration:none;}
 .cbp-wrapper{visibility:visible;}
+.clear{clear:both;}
 .content_fullwidth a{color:#454545;text-decoration:underline;}
 .content_fullwidth a:hover{color: #6b798f;text-decoration: none;}
 .content_fullwidth li{padding-bottom:.75em;}
 .content_fullwidth ul{padding-left:2.5em;}
+.features_sec39{padding-top:40px;}
 .features_sec39 .one_half{text-align:left;}
 .features_sec39 h4 {text-transform:none;}
 .features_sec39 h2.section_title_drakgray {font-size:27px;line-height: 35px;margin-bottom: 40px;font-style: normal;font-weight: bold; text-transform: none;}
@@ -34,13 +38,19 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .one_full h2, .one_full p{margin-bottom:20px;}
 .one_full.outline ol li{list-style-type:lower-alpha;margin-left:3em;}
 .one_full.outline ol li ol li{list-style-type:lower-roman;margin-left:3em;}
+.one_full table{border-top:1px solid #ccc;width:100%;}
+.one_full table td, .one_full table th{border-bottom:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;padding:.5em;}
+.one_full table th{background-color:#efefef;}
 .one_half img{height:auto;width:100%;}
 .one_half p{text-align:left;}
+.scorecard{border:3px solid #ccc;margin:1em 0;}
 .searchform{float:right;padding-top:5px;}
 .sip{margin:0 auto;width:1000px;}
-.sip h2{padding-top:120px;font-size:1px;height:1px;}
+.sip h2{padding-top:50px;font-size:1px;height:1px;}
 .sip h2.notop{padding-top:0px;}
+.sip .tableauPlaceholder{border:3px solid #ccc;}
 .sky-form header{font-size:27px;font-weight:bold;text-transform:none;}
+.backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
 	#trueHeader #logo {background-size:contain;}
