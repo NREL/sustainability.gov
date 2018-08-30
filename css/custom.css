@@ -5,6 +5,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 #trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
 .accordion-container{background-color:#fbfbfb;border:1px solid #ccc;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:5px;padding:10px 15px;}
 .accordion-container .header{font-size: 22px;line-height: 25px;margin-bottom: 20px;font-style: normal;text-decoration:none;}
+.agency_select{float:right;padding-top:8px;}
 .backtotop{padding:10px 0 0;text-align:right;}
 .backtotop a:before{font-family:FontAwesome;color:#454545;content: "\f139";margin-left:-1.5em;padding-right:.5em;}
 .callout{background-color:#fbfbfb;border:1px solid #ccc;float:right;margin:0 0 10px 10px;padding:20px;width:25%;}
@@ -35,6 +36,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .latest_works p{color:#fff;}
 .logo{width:70%;}
 .features_sec39 .limage{margin-top:0;}
+.one_full.agency h3{clear:both;padding-top:40px;}
 .one_full h2, .one_full p{margin-bottom:20px;}
 .one_full.outline ol li{list-style-type:lower-alpha;margin-left:3em;}
 .one_full.outline ol li ol li{list-style-type:lower-roman;margin-left:3em;}
@@ -54,6 +56,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
 	#trueHeader #logo {background-size:contain;}
+	.agency_select{float:none;}
 	.callout{float:none;width:80%;}
 	.logo{width:100%;}
 }

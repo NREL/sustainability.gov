@@ -37,6 +37,14 @@
   <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />
   <link rel="stylesheet" href="css/custom.css" />
 	<link rel="stylesheet" type="text/css" href="tipuesearch/css/tipuesearch.css">
+	<script type="text/javascript">
+		function goToNewPage() {
+			var url = document.getElementById('list').value;
+			if(url != 'none') {
+				window.location = url;
+			}    
+		}
+	</script>
 </head>
 <body>
 <div class="wrapper_boxed">
@@ -75,23 +83,50 @@
 		<div class="page_title2">
 			<div class="container">
 				<div class="title"><h1>Federal Agency Progress Data and OMB Scorecards</h1></div>
-				<div class="pagenation">&nbsp;<a href="index.html">Home</a> <i>/</i> <a href="performance.html">Performance Data</a> <i>/</i> Social Security Administration Agency Progress</div>
+				<div class="pagenation">&nbsp;<a href="index.html">Home</a> <i>/</i> <a href="performance.html">Performance Data</a> <i>/</i> Social Security Administration Progress</div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
 		<div class="container">
 			<div class="content_fullwidth">
-				<div class="one_full">
-					<!--<div class="callout">
-						<h3>Sustainability Implementation Plan</h3>
-					</div>-->
-					
+				<div class="one_full agency">
+					<div class="agency_select">
+						<select name="list" id="list" accesskey="target">
+					    <option value='none' selected>Select an Agency</option>
+					    <option value="usace.html">Army Corps of Engineers</option>
+					    <option value="usda.html">Department of Agriculture</option>
+					    <option value="doc.html">Department of Commerce</option>
+					    <option value="dod.html">Department of Defense</option>
+					    <option value="ed.html">Department of Education</option>
+					    <option value="doe.html">Department of Energy</option>
+					    <option value="hhs.html">Department of Health and Human Services</option>
+					    <option value="dhs.html">Department of Homeland Security</option>
+					    <option value="hud.html">Department of Housing and Urban Development</option>
+					    <option value="doi.html">Department of the Interior</option>
+					    <option value="doj.html">Department of Justice</option>
+					    <option value="dol.html">Department of Labor</option>
+					    <option value="state.html">Department of State</option>
+					    <option value="treasury.html">Department of the Treasury</option>
+					    <option value="dot.html">Department of Transportation</option>
+					    <option value="va.html">Department of Veterans Affairs</option>
+					    <option value="epa.html">Environmental Protection Agency</option>
+					    <option value="gsa.html">General Services Administration</option>
+					    <option value="nasa.html">National Aeronautics and Space Administration</option>
+					    <option value="nara.html">National Archives and Records Administration</option>
+					    <option value="opm.html">Office of Personnel Management</option>
+					    <option value="si.html">Smithsonian Institution</option>
+					    <option value="tva.html">Tennessee Valley Authority</option>
+					    <option value="usps.html">U.S. Postal Service</option>
+						</select>
+						<input type=button value="Go" onclick="goToNewPage()" />
+					</div>
+					<h2>Social Security Administration</h2>
 					<p>The Social Security Administration's <a href="pdfs/ssa_scorecard_fy2017.pdf">scorecard</a> and historical performance toward energy and sustainability goals are featured in the following categories: <a href="#btu">Energy and Water Use</a>; <a href="#renewable">Renewable Electricity</a>; <a href="#investment">Facility Efficiency Investments</a>; <a href="#fleet">Fleet Petroleum and Alternative Fuel</a>; and <a href="#s12">Greenhouse Gas Emissions</a>.</p>
-					<h2>OMB Scorecard for Efficient Federal Operations/Management</h2>
+					<h3>OMB Scorecard for Efficient Federal Operations/Management</h3>
 					<a href="images/scorecards/ssa_scorecard_fy2017.png"><img src="images/scorecards/ssa_scorecard_fy2017.png" alt="Social Security Administration Scorecard for FY 2017" border="0" class="scorecard" style="float:left;width:250px;margin-right:2em;"></a>
 					<p>By statute, the Director of the Office of Management and Budget (OMB) is required to publish agency progress and scorecards on Federal agency performance on energy efficiency and sustainability.</p>
 					<p>Download the Social Security Administration's <a href="pdfs/ssa_scorecard_fy2017.pdf">FY 2017 OMB Scorecard for Efficient Federal Operations/Management</a> (PDF).</p>
-					<h2 style="clear:both;"><br /><br />Agency Performance Data</h2>
+					<h3>Agency Performance Data</h3>
 					<p>Graphs include interactive features and can be shared, downloaded, and enlarged.</p>
 <div class="sip">
 <h2 id="btu" class="notop"></h2>
