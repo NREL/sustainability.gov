@@ -37,6 +37,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .logo{width:70%;}
 .features_sec39 .limage{margin-top:0;}
 .one_full.agency h3{clear:both;padding-top:40px;}
+.one_full .callout p{margin-bottom:10px;}
 .one_full h2, .one_full p{margin-bottom:20px;}
 .one_full.outline ol li{list-style-type:lower-alpha;margin-left:3em;}
 .one_full.outline ol li ol li{list-style-type:lower-roman;margin-left:3em;}
