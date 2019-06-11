@@ -54,6 +54,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .sip h2.notop{padding-top:0px;}
 .sip .tableauPlaceholder{border:3px solid #ccc;}
 .sky-form header{font-size:27px;font-weight:bold;text-transform:none;}
+.tp-caption.slider_but8 a{background-color:rgba(0,0,0,.2);}
 .backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
