@@ -35,6 +35,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .latest_works h3{color:#fff;}
 .latest_works p{color:#fff;}
 .logo{width:70%;}
+.menu_main .navbar-default .navbar-nav > .active > a{color:#000;background-color:#efefef;}
 .features_sec39 .limage{margin-top:0;}
 .one_full.agency h3{clear:both;padding-top:40px;}
 .one_full .callout p{margin-bottom:10px;}
