@@ -62,7 +62,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .one_half p{text-align:left;}
 .one_half .performance-col{background-color:#6b798f;color:#fff;display:inline-block;margin-top:1em;min-height:34em;padding:2em;width:90%;} 
 .one_half .performance-col h3, .scorecard-wrapper h3, .plan-wrapper h3{color:#fff;}
-.one_half .performance-col a, .scorecard-wrapper a, .plan-wrapper a{color:#fff;font-weight:800}
+.one_half .performance-col a, .scorecard-wrapper a, .plan-wrapper a{color:#fff;font-weight:600}
 .one_half .performance-col a:hover, .scorecard-wrapper a:hover, .plan-wrapper a:hover{color:yellowgreen;}
 .scorecard-wrapper, .plan-wrapper{background-color:#6b798f;color:#fff;display:inline-block;margin:2% 0;padding:2%; width:96%;}
 .scorecard, .plan{background-color:#fff;border:3px solid #ccc;margin:0;float:left;position:relative;margin-right:2em;}
