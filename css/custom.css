@@ -1,6 +1,7 @@
 h2{font-weight:bold;text-transform:none;}
 h2.section_title_white{margin-bottom:0;}
 h3{text-transform:none;}
+p{font-size:15px;}
 ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";margin-left:-1.5em;padding-right:.5em;}
 #trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
 .accordion-container{background-color:#fbfbfb;border:1px solid #ccc;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:5px;padding:10px 15px;}
@@ -12,12 +13,20 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .callout img{width:100%;}
 .callout h3 a{font-size:18px;text-decoration:none;}
 .cbp-wrapper{visibility:visible;}
+.chart-thumbs{display:inline-block;width:100%;}
+.chart-thumbs a{border:1px solid #ccc;display:inline-block;margin:5px;min-height:185px;padding:10px;position:relative;text-align:center;width:130px;vertical-align:top;}
+.content_fullwidth .chart-thumbs a:hover{background-color:#efefef;border-color:yellowgreen;}
+.chart-thumbs a img{border:1px solid #ccc;width:100%;}
+.content_fullwidth .chart-thumbs a{text-decoration: none;}
 .clear{clear:both;}
 .content_fullwidth a{color:#454545;text-decoration:underline;}
 .content_fullwidth a:hover{color: #6b798f;text-decoration: none;}
 .content_fullwidth li{padding-bottom:.75em;}
 .content_fullwidth ul{padding-left:2.5em;}
-.features_sec39{padding-top:40px;}
+.download{background-color:#47556b;margin-left:19em;padding:1em 1em 1em 3em;}
+.download.ca{margin-left:14em;}
+.download:before{content: "\f019";font-family:FontAwesome;font-size:20px;margin-left:-1.5em;padding:0 .5em 0 0;}
+.features_sec39{padding-top:1em;}
 .features_sec39 .one_half{text-align:left;}
 .features_sec39 h4 {text-transform:none;}
 .features_sec39 h2.section_title_drakgray {font-size:27px;line-height: 35px;margin-bottom: 40px;font-style: normal;font-weight: bold; text-transform: none;}
@@ -27,6 +36,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .features_sec39 .rightsection li.icon i{font-size:15px;height:20px;line-height:19px;width:20px;}
 .features_sec39 .rightsection h3{font-size:18px;}
 .features_sec39 .rightsection ul:hover i{background-color:#272727;}
+.fed-progress{float:right;width:400px;margin:0 4em;}
 .footer1 {background-color: #425363;}
 .footer1, .footer1  a{color:#fff;text-decoration:none;}
 .footer1 li{font-weight:300;}
@@ -34,10 +44,13 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .latest_works a{color:#fff;}
 .latest_works h3{color:#fff;}
 .latest_works p{color:#fff;}
+.list{font-size:14px;}
+.go-btn{font-size:16px;font-weight: 800;}
 .logo{width:70%;}
 .menu_main .navbar-default .navbar-nav > .active > a{color:#000;background-color:#efefef;}
 .features_sec39 .limage{margin-top:0;}
 .one_full.agency h3{clear:both;padding-top:40px;}
+.one_full.agency .scorecard-wrapper h3, .one_full.agency .plan-wrapper h3{clear:none;font-weight: 600;padding-top:1em;}
 .one_full .callout p{margin-bottom:10px;}
 .one_full h2, .one_full p{margin-bottom:20px;}
 .one_full.outline ol li{list-style-type:lower-alpha;margin-left:3em;}
@@ -47,13 +60,23 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .one_full table th{background-color:#efefef;}
 .one_half img{height:auto;width:100%;}
 .one_half p{text-align:left;}
-.scorecard{border:3px solid #ccc;margin:1em 0;}
+.one_half .performance-col{background-color:#6b798f;color:#fff;display:inline-block;margin-top:1em;min-height:34em;padding:2em;width:90%;} 
+.one_half .performance-col h3, .scorecard-wrapper h3, .plan-wrapper h3{color:#fff;}
+.one_half .performance-col a, .scorecard-wrapper a, .plan-wrapper a{color:#fff;font-weight:800}
+.one_half .performance-col a:hover, .scorecard-wrapper a:hover, .plan-wrapper a:hover{color:yellowgreen;}
+.scorecard-wrapper, .plan-wrapper{background-color:#6b798f;color:#fff;display:inline-block;margin:2% 0;padding:2%; width:96%;}
+.scorecard, .plan{background-color:#fff;border:3px solid #ccc;margin:0;float:left;position:relative;margin-right:2em;}
+.scorecard:hover, .plan:hover{border-color:yellowgreen;}
+.scorecard a:before, .plan a:before{background-color:#ffffff;bottom:0px;border-radius:50%;color:green;content: "\f00e";font-family:FontAwesome;font-size:30px;padding:.5em;position:absolute;right:0px;}
+.plan a:before{content: "\f019";}
+.scorecard:hover a:before, .plan:hover a:before{color:yellowgreen;}
 .searchform{float:right;padding-top:5px;}
-.sip{margin:0 auto;width:1000px;}
-.sip h2{padding-top:50px;font-size:1px;height:1px;}
-.sip h2.notop{padding-top:0px;}
+.sip{clear:both;margin:0 auto;width:1000px;}
+.sip h2, .sip h3{padding-top:50px;}
+.sip h2.notop, .sip h3.notop{padding-top:0px;}
 .sip .tableauPlaceholder{border:3px solid #ccc;}
 .sky-form header{font-size:27px;font-weight:bold;text-transform:none;}
+.tableauPlaceholder{position: relative}
 .tp-caption.slider_but8 a{background-color:rgba(0,0,0,.2);}
 .backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 
