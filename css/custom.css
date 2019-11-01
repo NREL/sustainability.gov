@@ -7,6 +7,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .accordion-container{background-color:#fbfbfb;border:1px solid #ccc;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:5px;padding:10px 15px;}
 .accordion-container .header{font-size: 22px;line-height: 25px;margin-bottom: 20px;font-style: normal;text-decoration:none;}
 .agency_select{float:right;padding-top:8px;}
+.archive hr{margin:3em 0;}
 .backtotop{padding:10px 0 0;text-align:right;}
 .backtotop a:before{font-family:FontAwesome;color:#454545;content: "\f139";margin-left:-1.5em;padding-right:.5em;}
 .callout{background-color:#fbfbfb;border:1px solid #ccc;float:right;margin:0 0 10px 10px;padding:20px;width:25%;}
@@ -62,7 +63,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .one_half p{text-align:left;}
 .one_half .performance-col{background-color:#6b798f;color:#fff;display:inline-block;margin-top:1em;min-height:34em;padding:2em;width:90%;} 
 .one_half .performance-col h3, .scorecard-wrapper h3, .plan-wrapper h3{color:#fff;}
-.one_half .performance-col a, .scorecard-wrapper a, .plan-wrapper a{color:#fff;font-weight:600}
+.one_half .performance-col a, .scorecard-wrapper .download a, .plan-wrapper .download a{color:#fff;font-weight:600}
 .one_half .performance-col a:hover, .scorecard-wrapper a:hover, .plan-wrapper a:hover{color:yellowgreen;}
 .scorecard-wrapper, .plan-wrapper{background-color:#6b798f;color:#fff;display:inline-block;margin:2% 0;padding:2%; width:96%;}
 .scorecard, .plan{background-color:#fff;border:3px solid #ccc;margin:0;float:left;position:relative;margin-right:2em;}
@@ -70,6 +71,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .scorecard a:before, .plan a:before{background-color:#ffffff;bottom:0px;border-radius:50%;color:green;content: "\f00e";font-family:FontAwesome;font-size:30px;padding:.5em;position:absolute;right:0px;}
 .plan a:before{content: "\f019";}
 .scorecard:hover a:before, .plan:hover a:before{color:yellowgreen;}
+.scorecard-wrapper a, .plan-wrapper a{color:#fff;}
 .searchform{float:right;padding-top:5px;}
 .sip{clear:both;margin:0 auto;width:1000px;}
 .sip h2, .sip h3{padding-top:50px;}
