@@ -1,11 +1,17 @@
 h2{font-weight:bold;text-transform:none;}
 h2.section_title_white{margin-bottom:0;}
-h3{text-transform:none;}
+h3{clear:both;text-transform:none;}
 p{font-size:15px;}
 ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";margin-left:-1.5em;padding-right:.5em;}
 #trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
 .accordion-container{background-color:#fbfbfb;border:1px solid #ccc;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:5px;padding:10px 15px;}
+.accordion-container.gov-wide{background:none;border:none;margin:0;padding:0;}
+.accordion-container.gov-wide h4{margin-top:10px;}
+.accordion-container.gov-wide .collapse, .accordion-container.gov-wide .in{background-color:#fbfbfb;border:1px solid #6b798f;border-top-left-radius:3px;clear:both;margin-bottom:5px;padding:10px 15px;}
+.accordion-container.gov-wide .collapse h4, .accordion-container.gov-wide .in h4{margin:10px 0;font-size: 18px;font-style: normal;line-height: 25px;text-transform: none;}
 .accordion-container .header{font-size: 22px;line-height: 25px;margin-bottom: 20px;font-style: normal;text-decoration:none;}
+.accordion-container .header.gov-wide{background-color:#6b798f;color:#fff; font-size: 13px;font-weight: bold;float: right;margin:0;padding:3px 8px;text-transform: uppercase;}
+.accordion-container .header.gov-wide:hover{background-color:#4A6082;}
 .agency_select{float:right;padding-top:8px;}
 .archive hr{margin:3em 0;}
 .backtotop{padding:10px 0 0;text-align:right;}
@@ -73,12 +79,18 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .scorecard:hover a:before, .plan:hover a:before{color:yellowgreen;}
 .scorecard-wrapper a, .plan-wrapper a{color:#fff;}
 .searchform{float:right;padding-top:5px;}
-.sip{clear:both;margin:0 auto;width:1000px;}
-.sip h2, .sip h3{padding-top:50px;}
+.sip{clear:both;margin:0 auto;width:1006px;}
+.sip h2, .sip h3{margin-bottom:0;padding-top:50px;}
 .sip h2.notop, .sip h3.notop{padding-top:0px;}
 .sip .tableauPlaceholder{border:3px solid #ccc;}
 .sky-form header{font-size:27px;font-weight:bold;text-transform:none;}
-.tableauPlaceholder{position: relative}
+.source{background-color: #efefef;float:none;font-size:12px;margin-top:.5em;padding:2%;width:96%;}
+.source p{font-size:12px;margin-bottom:0px;}
+.tableauPlaceholder{clear:both;margin-top:2px;position: relative;}
+.top-performers{background-color: #6b798f;color: #fff;float:left;margin-top:.5em;padding:3%;width:52%;}
+.top-performers h4{color:#fff;margin:10px 0;font-size: 18px;font-style: normal;line-height: 25px;text-transform: none;}
+.top-performers a{color:#fff;}
+.top-performers ol{padding-left:1em;margin-bottom:0;}
 .tp-caption.slider_but8 a{background-color:rgba(0,0,0,.2);}
 .backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 
