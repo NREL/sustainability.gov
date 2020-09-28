@@ -55,6 +55,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .go-btn{font-size:16px;font-weight: 800;}
 .logo{width:70%;}
 .menu_main .navbar-default .navbar-nav > .active > a{color:#000;background-color:#efefef;}
+.noclear{clear:none;}
 .features_sec39 .limage{margin-top:0;}
 .one_full.agency h3{clear:both;padding-top:40px;}
 .one_full.agency .scorecard-wrapper h3, .one_full.agency .plan-wrapper h3{clear:none;font-weight: 600;padding-top:1em;}
