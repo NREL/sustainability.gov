@@ -1,3 +1,4 @@
+body{color:#414141;}
 h2{font-weight:bold;text-transform:none;}
 h2.section_title_white{margin-bottom:0;}
 h3{clear:both;text-transform:none;}
@@ -53,8 +54,11 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .latest_works p{color:#fff;}
 .list{font-size:14px;}
 .go-btn{font-size:16px;font-weight: 800;}
+.left{float:left;padding:0 2em 1em 0;}
 .logo{width:70%;}
 .menu_main .navbar-default .navbar-nav > .active > a{color:#000;background-color:#efefef;}
+.news{text-align:left;}
+.news li{border-bottom:1px solid #ccc;padding:1em;}
 .noclear{clear:none;}
 .features_sec39 .limage{margin-top:0;}
 .one_full.agency h3{clear:both;padding-top:40px;}
@@ -72,6 +76,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .one_half .performance-col h3, .scorecard-wrapper h3, .plan-wrapper h3{color:#fff;}
 .one_half .performance-col a, .scorecard-wrapper .download a, .plan-wrapper .download a{color:#fff;font-weight:600}
 .one_half .performance-col a:hover, .scorecard-wrapper a:hover, .plan-wrapper a:hover{color:yellowgreen;}
+.right{float:right;}
 .scorecard-wrapper, .plan-wrapper{background-color:#6b798f;color:#fff;display:inline-block;margin:2% 0;padding:2%; width:96%;}
 .scorecard, .plan{background-color:#fff;border:3px solid #ccc;margin:0;float:left;position:relative;margin-right:2em;}
 .scorecard:hover, .plan:hover{border-color:yellowgreen;}
