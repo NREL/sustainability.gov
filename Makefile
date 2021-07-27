@@ -5,9 +5,9 @@ IMAGE_TAG ?= latest
 
 REGISTRY-IDS = 991404956194
 REPO = $(REGISTRY-IDS).dkr.ecr.us-west-2.amazonaws.com/nrel-sustainability-web
-NAME = drupal-$(DRUPAL_VER_MAJOR)-$(PHP_VER)
+NAME = sustainability
 
-TAG ?= $(DRUPAL_VER_MAJOR)-$(PHP_VER)-$(IMAGE_TAG)
+TAG ?= $(IMAGE_TAG)
 
 PLATFORM ?= linux/amd64
 
