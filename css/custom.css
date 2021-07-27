@@ -4,6 +4,7 @@ h2.section_title_white{margin-bottom:0;}
 h3{clear:both;text-transform:none;}
 p{font-size:15px;}
 ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";margin-left:-1.5em;padding-right:.5em;}
+#mc_embed_signup{clear:left;}
 #trueHeader #logo{background:url(../images/ofs_ceq.png) top left no-repeat;min-height:70px;}
 .accordion-container{background-color:#fbfbfb;border:1px solid #ccc;border-top-left-radius:3px;border-top-right-radius:3px;margin-bottom:5px;padding:10px 15px;}
 .accordion-container.gov-wide{background:none;border:none;margin:0;padding:0;}
@@ -58,6 +59,12 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .left{float:left;padding:0 2em 1em 0;}
 .logo{width:70%;}
 .menu_main .navbar-default .navbar-nav > .active > a{color:#000;background-color:#efefef;}
+.mc_signup{background-color:#fbfbfb;border:1px solid #425363;border-radius:1em;display:inline-block;margin-bottom:2em;padding:3em 2em;width:calc(100% - 4em);}
+.mc_signup .logo{width:100px;float:left;}
+.mc_signup .form-wrapper{clear:left;display:inline-block;margin-left:50px;width:calc(100% - 150px);}
+.mc_signup input{color:#425363;padding:.75em;}
+.mc_signup input.email{border:1px solid #425363;border-radius:1em;width:75%;}
+.mc_signup .button {border:1px solid #425363;background-color:#425363;border-radius:1em;color:#fff;font-weight:bold;padding:.75em 2.5em;}
 .news{text-align:left;}
 .news li{border-bottom:1px solid #ccc;padding:1em;}
 .noclear{clear:none;}
@@ -115,6 +122,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .top-performers a{color:#fff;}
 .top-performers ol{padding-left:1em;margin-bottom:0;}
 .tp-caption.slider_but8 a{background-color:rgba(0,0,0,.2);}
+.twitter:before{content: "\f081";font-family:FontAwesome;font-size:40px;display:none;}
 .backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
