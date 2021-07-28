@@ -1,4 +1,4 @@
-FROM 407445147104.dkr.ecr.us-west-2.amazonaws.com/base-httpd:9
+FROM 991404956194.dkr.ecr.us-west-2.amazonaws.com/nrel-split-httpd:latest
 
 RUN yum -y update ; yum clean all
 RUN yum -y install git ; yum clean all
