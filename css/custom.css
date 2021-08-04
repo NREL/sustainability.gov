@@ -165,7 +165,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .top-performers a{color:#fff;}
 .top-performers ol{padding-left:1em;margin-bottom:0;}
 .tp-caption.slider_but8 a{background-color:rgba(0,0,0,.2);}
-.twitter:before{content: "\f081";font-family:FontAwesome;font-size:40px;}
+.twitter:before{content: "\f081";font-family:FontAwesome;font-size:40px;display:none;}
 .backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
