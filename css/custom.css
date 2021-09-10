@@ -144,7 +144,11 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .slides li .caption-text p{color:#fff;font-size:14px;line-height:1.7em;margin-bottom:1em;text-shadow: 0 0 0 0;}
 .slides li .caption-text .slide-btn{margin-top:2em;}
 .slides li .caption-text .slide-btn a{background-color:rgba(0,0,0,.6);color: #fff;font-size: 16px;font-weight: normal;text-align: center;text-transform: uppercase;padding: 12px 25px;border: 3px solid #fff;}
+.slides li .caption-text.ggi .slide-btn a{background-color:rgba(0,0,0,.2); border-color:#00a871;}
 .slides li .caption-text .slide-btn a:hover{background-color:#fff;color:#000000;}
+.slides li .caption-text.ggi{right:0;top:40px;margin:2em;width:40%;}
+.slides li .caption-text.ggi p{color:rgba(255, 255, 255, .9);font-size:18px;margin-top:1em;}
+.slides li .caption-text.ggi img{width:100%;}
 .slides li .caption-text.potus{left:0;top:0;margin:2em;width:35%;}
 .slides li .caption-text.data{top:8em; right:10em;}
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
