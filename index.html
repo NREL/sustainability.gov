@@ -60,17 +60,15 @@ $(window).load(function() {
 						<div class="tipue_search_left"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
 						<div class="tipue_search_right"><img src="tipuesearch/search.png" class="tipue_search_icon" alt="Magnifying glass icon."></div>
 						<div style="clear: both;"></div>
-					</form>
-				</div>
-				<div class="clearfix"></div>
+					</form>				</div>
         <div class="menu_main">
           <nav class="navbar navbar-default fhmm" role="navigation">
 	        	<div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle">Menu <i class="fa fa-bars tbars"></i></button></div>        
             <div id="defaultmenu" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-	              <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-	              <li><a href="policy.html">Policy</a></li>
+	              <li class="active"><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+                    <!--<li><a href="federalsustainabilityplan/index.html">Plan</a></li>-->    
+		                <li><a href="policy.html">Policy</a></li>
 	              <li><a href="performance.html">Progress</a></li>
 	              <li><a href="resources.html">Resources &amp; Guidance</a></li>
               </ul>
@@ -83,105 +81,144 @@ $(window).load(function() {
 </header>
 <div class="container_full">
   <div class="clearfix"></div>
-  <div class="flexslider">
-    <ul class="slides">
+  <div class="flexslider_wrapper">
+    <div class="flexslider">
+      <ul class="slides">
+        <!--<li>
+          <img src="images/home-fsp.jpg" alt="Photo of solar panels." />
+          <div class="caption-text fsp">
+            <h3>The Federal Sustainability Plan</h3>
+            <p><a href="federalsustainabilityplan/index.html">The President's Plan</a> will transform the Federal Government into a sustainable, climate-ready organization and catalyze America's clean energy industries and jobs.</p>
+          </div>
+        </li>
       <li>
-        <img src="images/home-potus.png" alt="Photo of President Biden." />
-        <div class="caption-text potus">
-          <h3><strong>Leading by Example</strong></h3>
-          <p style="color:#fff;display:block;font-size:14px;line-height:1.7em; text-shadow: 0 0 0 0;">&quot;It is the policy of my Administration to lead the Nation's effort to combat the climate crisis by example—specifically, by aligning the management of Federal procurement and real property, public lands and waters, and financial programs to support robust climate action.</p>
-          <p>Despite the peril that is already evident, there is promise in the solutions—opportunities to create well-paying union jobs to build a modern and sustainable infrastructure, deliver an equitable, clean energy future, and put the United States on a path to achieve net-zero emissions, economy-wide, by no later than 2050.&quot;</p>
-          <p style="text-align:right;">&ndash;	President Biden</p>
+        <img src="images/home-cap.jpg" alt="Photo of two people standing at a whiteboard." />
+        <div class="caption-text cap">
+          <h3><strong>Preparing for Climate Change</strong></h3>
+          <p style="display:block;">Federal agencies released plans describing how they are bolstering resilience of their operations and assets from the accelerating impacts of climate change. <a href="#">Read the fact sheet</a>.</p>
+          <div class="slide-btn">
+            <a href="caps.html">Read the Plans</a>
+          </div>
+        </div>
+      </li>-->
+        <li>
+        <img src="images/home-ggi.png" alt="Photo of a sustainable federal building." />
+        <div class="caption-text ggi">
+          <img src="images/ggi-logo.png" alt="Greening Government Initiative">
+          <p style="display:block;">The United States and Canada announced a new initiative to engage governments around the world in greening government operations.</p>
+          <div class="slide-btn"><a href="./ggi">Learn more</a></div>
         </div>
       </li>
-      <li>
-        <img src="images/home_data.jpg" alt="Green and gray graph with a white jagged line running diagonally through the chart that represents energy reduction." />
-        <div class="caption-text data">
-          <h3>View <strong>Performance Data</strong></h3>
-          <div class="slide-btn"><a href="performance.html">Read more</a></div>
-        </div>
-      </li>
-    </ul>
-    <ul class="flex-control-nav">
-      <li>1</li>
-      <li>2</li>
-    </ul>
+        <li>
+          <img src="images/home-potus.png" alt="Photo of President Biden." />
+          <div class="caption-text potus">
+            <h3><strong>Leading by Example</strong></h3>
+            <p style="color:#fff;display:block;font-size:14px;line-height:1.7em; text-shadow: 0 0 0 0;">&quot;It is the policy of my Administration to lead the Nation's effort to combat the climate crisis by example—specifically, by aligning the management of Federal procurement and real property, public lands and waters, and financial programs to support robust climate action.</p>
+            <p>Despite the peril that is already evident, there is promise in the solutions—opportunities to create well-paying union jobs to build a modern and sustainable infrastructure, deliver an equitable, clean energy future, and put the United States on a path to achieve net-zero emissions, economy-wide, by no later than 2050.&quot;</p>
+            <p style="text-align:right;">&ndash;	President Biden</p>
+          </div>
+        </li>
+        <!--<li>
+          <img src="images/home_data.jpg" alt="Green and gray graph with a white jagged line running diagonally through the chart that represents energy reduction." />
+          <div class="caption-text data">
+            <h3>View <strong>Performance Data</strong></h3>
+            <div class="slide-btn"><a href="performance.html">Read more</a></div>
+          </div>
+        </li>-->
+      </ul>
+      <ul class="flex-control-nav">
+        <li>1</li>
+        <li>2</li>
+        <!--<li>3</li>
+        <li>4</li>-->
+      </ul>
+    </div>
   </div>
 <div class="content_fullwidth">
 	<div class="container">
-		<div class="alileft"><h3 class="nocaps">Welcome</h3></div>
+		<div class="alileft"><h2 class="nocaps">Welcome</h2></div>
     <div class="one_full"> 
-			<p>The Office of the Federal Chief Sustainability Officer (CSO) leads development of policies, programs, and partnerships to advance sustainability and climate resilient Federal operations. The Office of the Federal CSO is housed within the <a href="https://www.whitehouse.gov/ceq/">White House Council on Environmental Quality</a>. <a href="about.html">Learn more about the Office of the Federal CSO</a>.</p>
+			<p>The Office of the Federal Chief Sustainability Officer (CSO) leads development of policies, programs, and partnerships to advance sustainability and climate resilient Federal operations. The Office of the Federal CSO is housed within the <a href="https://www.whitehouse.gov/ceq/">White House Council on Environmental Quality</a>.<br /><a href="about.html">Learn more about the Office of the Federal CSO</a>.</p>
 		</div>
 		<div class="clearfix"></div>
 		<div class="features_sec39">
 			<div class="container">
-				<h2 class="section_title_drakgray">News and Announcements </h2>
-        <ul class="news bullets">
-          <li><a href="https://www.youtube.com/watch?v=CWQGn1lNSVg">A Weekly Conversation: On the Road in a Zero-Emission Truck</a> – 7/31/2021</li>
-          <li><a href="https://www.whitehouse.gov/ceq/news-updates/2021/07/20/the-path-to-achieving-justice40/">The Path to Achieving Justice40</a> - 7/20/2021</li>
-          <li><a href="https://www.youtube.com/watch?v=g9pElxQpiQ8">Gina McCarthy and Secretary Granholm Hit the Road in an EV</a> – 7/1/2021</li>
-          <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/06/08/fact-sheet-biden-harris-administration-announces-supply-chain-disruptions-task-force-to-address-short-term-supply-chain-discontinuities/">Biden-Harris Administration Announces Supply Chain Disruptions Task Force to Address Short-Term Supply Chain Discontinuities</a> - 6/10/2021</li>
-          <li><a href="https://www.energy.gov/articles/doe-announces-actions-bolster-domestic-supply-chain-advanced-batteries">DOE Announces Actions to Bolster Domestic Supply Chain of Advanced Batteries</a> - 6/8/21</li>
-          <li><a href="https://www.whitehouse.gov/ceq/news-updates/2021/06/04/readout-of-the-white-house-convening-on-expanding-federal-ev-infrastructure/">Readout of the White House Convening on Expanding Federal EV Infrastructure</a> - 6/4/21</li>
-          <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/25/fact-sheet-biden-administration-opens-pacific-coast-to-new-jobs-and-clean-energy-production-with-offshore-wind-development/">Biden Administration Opens Pacific Coast to New Jobs and Clean Energy Production with Offshore Wind Development</a> - 5/25/2021</li>
-          <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/24/fact-sheet-biden-administration-invests-1-billion-to-protect-communities-families-and-businesses-before-disaster-strikes/">Biden Administration Invests $1 Billion to Protect Communities Before Hurricanes Strike</a> – 5/24/21</li>
-          <li><a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/20/executive-order-on-climate-related-financial-risk/">Executive Order on Climate-Related Financial Risk</a> – 5/20/21</li>
-          <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/18/fact-sheet-the-american-jobs-plan-supercharges-the-future-of-transportation-and-manufacturing/">The American Jobs Plans Supercharges the Future of Transportation and Manufacturing</a> – 5/18/21</li>
-          <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/17/fact-sheet-biden-administration-accelerates-efforts-to-create-jobs-making-american-buildings-more-affordable-cleaner-and-resilient/">Biden Administration Accelerates Efforts to Create Jobs Making American Buildings More Affordable, Cleaner, and Resilient</a> – 5/17/21</li>
-          <li><a href="https://www.whitehouse.gov/ceq/news-updates/2021/04/22/the-governments-of-the-united-states-and-canada-announce-new-greening-government-initiative/">The Governments of the United States and Canada Announce New Greening Government Initiative</a> - 4/22/21</li>
-        </ul>
+        <div class="one_full">
+          <div class="news-col">
+            <h3>News from the CSO</h3>
+            <div class="news-item">
+              <h4><a href="https://www.whitehouse.gov/ceq/news-updates/2021/06/04/readout-of-the-white-house-convening-on-expanding-federal-ev-infrastructure/">Readout of the Inaugural Meeting of the Greening Government Initiative</a></h4><p>September 22, 2021</p>
+            </div>
+            <!--<li><a href="https://www.youtube.com/watch?v=CWQGn1lNSVg">A Weekly Conversation: On the Road in a Zero-Emission Truck</a> – 7/31/2021</li>
+            <li><a href="https://www.whitehouse.gov/ceq/news-updates/2021/07/20/the-path-to-achieving-justice40/">The Path to Achieving Justice40</a> - 7/20/2021</li>
+            <li><a href="https://www.youtube.com/watch?v=g9pElxQpiQ8">Gina McCarthy and Secretary Granholm Hit the Road in an EV</a> – 7/1/2021</li>
+            <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/06/08/fact-sheet-biden-harris-administration-announces-supply-chain-disruptions-task-force-to-address-short-term-supply-chain-discontinuities/">Biden-Harris Administration Announces Supply Chain Disruptions Task Force to Address Short-Term Supply Chain Discontinuities</a> - 6/10/2021</li>
+            <li><a href="https://www.energy.gov/articles/doe-announces-actions-bolster-domestic-supply-chain-advanced-batteries">DOE Announces Actions to Bolster Domestic Supply Chain of Advanced Batteries</a> - 6/8/21</li>
+            <div class="news-item">
+              <h4><a href="https://www.whitehouse.gov/ceq/news-updates/2021/06/04/readout-of-the-white-house-convening-on-expanding-federal-ev-infrastructure/">CEQ Announces Federal Sustainability Plan </a></h4><p>August 2021</p>
+            </div>-->
+            <div class="news-item">
+              <h4><a href="https://www.whitehouse.gov/ceq/news-updates/2021/06/04/readout-of-the-white-house-convening-on-expanding-federal-ev-infrastructure/">Readout of the White House Convening on Expanding Federal EV Infrastructure</a></h4><p>June 4, 2021</p>
+            </div>
+            <!--<li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/25/fact-sheet-biden-administration-opens-pacific-coast-to-new-jobs-and-clean-energy-production-with-offshore-wind-development/">Biden Administration Opens Pacific Coast to New Jobs and Clean Energy Production with Offshore Wind Development</a> - 5/25/2021</li>
+            <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/24/fact-sheet-biden-administration-invests-1-billion-to-protect-communities-families-and-businesses-before-disaster-strikes/">Biden Administration Invests $1 Billion to Protect Communities Before Hurricanes Strike</a> – 5/24/21</li>
+            <li><a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/20/executive-order-on-climate-related-financial-risk/">Executive Order on Climate-Related Financial Risk</a> – 5/20/21</li>
+            <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/18/fact-sheet-the-american-jobs-plan-supercharges-the-future-of-transportation-and-manufacturing/">The American Jobs Plans Supercharges the Future of Transportation and Manufacturing</a> – 5/18/21</li>
+            <li><a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/05/17/fact-sheet-biden-administration-accelerates-efforts-to-create-jobs-making-american-buildings-more-affordable-cleaner-and-resilient/">Biden Administration Accelerates Efforts to Create Jobs Making American Buildings More Affordable, Cleaner, and Resilient</a> – 5/17/21</li>-->
+            <div class="news-item">
+              <h4><a href="https://www.whitehouse.gov/ceq/news-updates/2021/04/22/the-governments-of-the-united-states-and-canada-announce-new-greening-government-initiative/">The Governments of the United States and Canada Announce New Greening Government Initiative</a></h4><p>April 22, 2021</p>
+            </div>
+          <p class="more"><a href="newsroom.html">Read more news releases</a>.</p>
+        </div>
+        </div>
+        <!--<div class="one_third last">
+          <div class="twitter-col" style="position:relative">
+            <a class="twitter-timeline" data-height="300" href="https://twitter.com/whitehouseCSO?ref_src=twsrc%5Etfw">Tweets by @whitehouseCSO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>-->
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Begin Mailchimp Signup Form -->     
-    <div class="container mailchimp">
-			<div class="content_fullwidth" style="padding:0;">
-				<div class="one_full">    
+</div>		
+  <div class="footer1">
+		<div class="container_full">
+			<div class="one_third">
+    	<ul>
+      	<li><img src="images/ofs_ceq_sm.png" alt="CEQ Logo" /><br /> 730 Jackson Place N.W.<br />Washington, D.C. 20503</li>
+    	</ul>     
+		</div>		    
+      <div class="one_third">        
+        <ul>
+          <li><h3>Quick Links</h3></li>
+          <li><a href="https://www.whitehouse.gov/ceq/">&middot; Council on Environmental Quality</a></li>
+          <li><a href="https://www.whitehouse.gov/privacy-policy/">&middot; Security &amp; Privacy</a></li>
+		      <li><a href="contact.html">&middot; Contact Us</a></li> 
+        </ul>
+      </div>
+      <div class="one_third">
+        <h3>Stay Connected&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/whitehouseCSO?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @whitehouseCSO</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></h3>
+					<!-- Begin Mailchimp Signup Form -->     
+    <div class="mailchimp">
           <div id="mc_embed_signup" class="mc_signup">
-            <img src="images/ceqlogo.png" border="0" alt="CEQ logo" class="logo"/>
             <div class="form-wrapper">
-            <h3>Stay Connected</h3>
+            
               <form action="https://nrel.us6.list-manage.com/subscribe/post?u=e510db12d3f36e83cc393aea4&amp;id=9d2a0c8047" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>&nbsp;<input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
                   
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e510db12d3f36e83cc393aea4_9d2a0c8047" tabindex="-1" value=""></div>
-                  <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  
                 </div>
               </form>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
 <!-- End mc_embed_signup-->
-</div>
-<div class="footer1">
-	<div class="container">
-  	<div class="one_third">
-    	<ul>
-      	<li><img src="images/ofs_ceq_sm.png" alt="CEQ Logo" /><br /> 730 Jackson Place N.W.<br />Washington, D.C. 20503<br /><br /><a href="#" class="twitter">&nbsp;</a></li>
-    	</ul>     
+		    </div>
+    	</div>
 		</div>
-    <div class="one_fourth" style="padding-top:23px; margin-left:20px">
-		<div>
-      <h3 class="nocaps">Government Sites</h3>
-      <ul>
-        <li><a href="https://www.whitehouse.gov">The White House</a></li>
-      </ul>
-    </div>
-    </div>
-    <div class="one_fourth" style="padding-top:23px; margin-left:20px">
-      <h3 class="nocaps">About This Site</h3>
-      <ul>
-      	<li><a href="https://www.whitehouse.gov/privacy-policy/">Security &amp; Privacy</a></li>
-        <li><a href="contact.html">Contact Us</a></li> 
-      </ul>
-    </div>
-	</div>
-</div>
 <div class="clearfix"></div>
 <div class="copyright_info">
   <div class="container">
