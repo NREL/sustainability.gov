@@ -51,7 +51,6 @@ if( isset($_POST['email']) )
   <link rel="stylesheet" href="js/form/sky-forms.css" type="text/css" media="all">
   <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />  <link rel="stylesheet" href="css/custom.css" />
 	<link rel="stylesheet" href="tipuesearch/css/tipuesearch.css" type="text/css">
-  <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" type="text/css">
 </head>
 <body>
 <div class="wrapper_boxed">
