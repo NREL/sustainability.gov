@@ -171,7 +171,7 @@ img.right{margin:0 0 1em 1em;}
 .one_half img{height:auto;width:100%;}
 .one_half p{text-align:left;}
 .one_half .performance-col, .news-col, .twitter-col{background-color:rgba(224, 229, 239, .6);display:inline-block;margin-right:1em;margin-top:1em;min-height:34em;padding:2em;} 
-.news-col, .twitter-col{min-height:calc(300px + 4em);text-align:left;width:100%;}
+.news-col, .twitter-col{min-height:calc(300px + 4em);text-align:left;width:calc(100% - 4em);}
 .news-col .more{padding-top:1em;}
 .one_half.last .performance-col{margin-right:0;} 
 .page_title2{background:none;background-color: #004884;}
