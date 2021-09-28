@@ -6,20 +6,21 @@ IMAGE_TAG ?= latest
 REGISTRY-IDS = 991404956194
 REPO = $(REGISTRY-IDS).dkr.ecr.us-west-2.amazonaws.com/nrel-sustainability-web
 NAME = sustainability
-
+HEAD_VER=$(shell git log -1 --pretty=tformat:%h)
 TAG ?= $(IMAGE_TAG)
 
 PLATFORM ?= linux/amd64
 
 ifneq ($(BASE_IMAGE_STABILITY_TAG),)
-    BASE_IMAGE_TAG := $(BASE_IMAGE_TAG)-$(BASE_IMAGE_STABILITY_TAG)
+		BASE_IMAGE_TAG := $(BASE_IMAGE_TAG)-$(BASE_IMAGE_STABILITY_TAG)
 endif
 
-# ifneq ($(STABILITY_TAG),)
-#     ifneq ($(TAG),latest)
-#         override TAG := $(TAG)-$(STABILITY_TAG)
-#     endif
+ifneq ($(HEAD_VER),)
+# ifneq ($(TAG),latest)
+    override TAG := $(TAG)-$(HEAD_VER)
 # endif
+endif
+
 
 .PHONY: build buildx-build buildx-build-amd64 buildx-push test push shell run start stop logs clean release
 
