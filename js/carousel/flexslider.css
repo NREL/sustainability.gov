@@ -37,7 +37,7 @@
 	display: none;
 }
 .slider.nosidearrows_two .flex-control-nav li {margin: 0 3px;}
-.slider.nosidearrows_two .flex-control-paging li a {background: #fff; background: #fff;}
+.slider.nosidearrows_two .flex-control-paging li a {background: #fff;}
 .slider.nosidearrows_two .flex-control-paging li a:hover { background: #fff; background: #272727; }
 .slider.nosidearrows_two .flex-control-paging li a.flex-active { background: #fff; background: #272727; }
 
