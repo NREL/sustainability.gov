@@ -73,7 +73,7 @@
 /* columns */
 .one_half, .one_third, .one_fourth, .two_third, .three_fourth, .one_fifth {
 	position: relative;
-	margin-right: 4%;
+	/*margin-right: 4%;*/
 	float: left;
 }
 .one_full {

@@ -13,7 +13,7 @@ http://www.tipue.com/search
 
           var set = $.extend( {
           
-          'contentLocation'        : 'tipuesearch/tipuesearch_content.json',
+          'contentLocation'        : 'tipuesearch/tipuesearch_set.js',
           'contextBuffer'          : 60,
           'contextLength'          : 60,
           'contextStart'           : 90,
