@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  exported-variables:
+    - CODEBUILD_SOURCE_VERSION
+    - CODEBUILD_BUILD_ID
+
 phases:
   install:
     runtime-versions:
