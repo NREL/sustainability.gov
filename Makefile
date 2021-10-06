@@ -9,7 +9,7 @@ NAME = sustainability
 
 HEAD_VER ?= =$(shell git log -1 --pretty=tformat:%h)
 
-ifdef ($(CODEBUILD_SOURCE_VERSION),)
+ifdef CODEBUILD_SOURCE_VERSION
   HEAD_VER=$(CODEBUILD_SOURCE_VERSION)
 else
 	HEAD_VER=$(shell git log -1 --pretty=tformat:%h)
