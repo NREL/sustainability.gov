@@ -1,11 +1,5 @@
 version: 0.2
 
-env:
-  exported-variables:
-    - CODEBUILD_SOURCE_VERSION
-    - CODEBUILD_BUILD_ID
-    - CODEBUILD_SOURCE_VERSION_SHORT
-
 phases:
   install:
     runtime-versions:
@@ -14,7 +8,6 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
-      - CODEBUILD_SOURCE_VERSION_SHORT=$(echo $CODEBUILD_SOURCE_VERSION | head -c 7)
   build:
     commands:
       - echo Build started on `date`

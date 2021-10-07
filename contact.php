@@ -21,7 +21,7 @@ if( isset($_POST['email']) )
 <!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
 <head>
-	<title>Office of Federal Sustainability | Thank You for Contacting the Office of Federal Sustainability</title>
+	<title>Office of the Federal Chief Sustainability Officer | Thank You for Contacting the Office of Federal Sustainability</title>
 	<meta charset="utf-8">
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
@@ -41,20 +41,16 @@ if( isset($_POST['email']) )
   <link rel="stylesheet" href="css/reset.css" type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
-  <link rel="stylesheet" href="css/colors/slate.css" />
-  <link href="js/mainmenu/sticky.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive-leyouts.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="css/colors/slate.css" type="text/css" />
+  
   <link href="js/mainmenu/bootstrap.css" rel="stylesheet">
   <link href="js/mainmenu/fhmm.css" rel="stylesheet">
- 	<link rel="stylesheet" type="text/css" href="js/revolutionslider/rs-plugin/css/settings.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="js/revolutionslider/css/slider_main.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
   <link rel="stylesheet" href="js/carousel/flexslider.css" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="js/carousel/skin.css" />
   <link rel="stylesheet" href="js/form/sky-forms.css" type="text/css" media="all">
-  <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />
-  <link rel="stylesheet" href="css/custom.css" />
-	<link rel="stylesheet" type="text/css" href="tipuesearch/css/tipuesearch.css">
+  <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />  <link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="tipuesearch/css/tipuesearch.css" type="text/css">
 </head>
 <body>
 <div class="wrapper_boxed">
@@ -69,17 +65,16 @@ if( isset($_POST['email']) )
 								<div class="tipue_search_left"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
 								<div class="tipue_search_right"><img src="tipuesearch/search.png" class="tipue_search_icon"></div>
 								<div style="clear: both;"></div>
-							</form>
-						</div>
-						<div class="clearfix"></div>
-						<div class="menu_main">
+							</form>				</div>
+        <div class="menu_main">
 							<nav class="navbar navbar-default fhmm" role="navigation">
 								<div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle">Menu <i class="fa fa-bars tbars"></i></button></div>        
 		            <div id="defaultmenu" class="navbar-collapse collapse">
 		              <ul class="nav navbar-nav">
-			              <li><a href="index.html">Home</a></li>
-			              <li><a href="policy.html">Policy</a></li>
-			              <li><a href="performance.html">Performance Data</a></li>
+			              <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+                    <!--<li><a href="federalsustainabilityplan/index.html">Plan</a></li>-->    
+		                <li><a href="policy.html">Policy</a></li>
+			              <li><a href="performance.html">Progress</a></li>
 			              <li><a href="resources.html">Resources &amp; Guidance</a></li>
 		              </ul>
 								</div>
@@ -100,21 +95,38 @@ if( isset($_POST['email']) )
 		<div class="container">
     	<div class="content_fullwidth">
         	<h2>Thank you for contacting the Office of Federal Sustainability</h2>
-    	</div>
+    	</div>		</div>		<div class="footer1">
+			<div class="container"><!-- Begin Mailchimp Signup Form -->     
+    <div class="container mailchimp">
+			<div class="content_fullwidth">
+				<div class="one_full">    
+          <div id="mc_embed_signup" class="mc_signup">
+            <div class="form-wrapper">
+            <h3>Stay Connected</h3>
+              <form action="https://nrel.us6.list-manage.com/subscribe/post?u=e510db12d3f36e83cc393aea4&amp;id=9d2a0c8047" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                  
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e510db12d3f36e83cc393aea4_9d2a0c8047" tabindex="-1" value=""></div>
+                  <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-		<div class="clearfix margin_top7"></div>
-			<div class="footer1">
-				<div class="container">
-			   <div class="one_third">
+<!-- End mc_embed_signup-->
+				<div class="one_third">
 			    <ul>
-						<li><img src="images/ofs_ceq_sm.png" alt="CEQ Logo" /><br /> 730 Jackson Place N.W.<br />Washington, D.C. 20506<br /><br /></li>
+						<li><img src="images/ofs_ceq_sm.png" alt="CEQ Logo" /><br /> 730 Jackson Place N.W.<br />Washington, D.C. 20503<br /><br /><a href="https://twitter.com/whitehouseCSO?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @whitehouseCSO</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
 			    </ul>     
 				</div>
 		    <div class="one_fourth" style="padding-top:23px; margin-left:20px">
 					<div>
 			      <h3 class="nocaps">Government Sites</h3>
 			      <ul>
-			        <li><a href="https://www.whitehouse.gov">The White House</a></li>
+			        <li><a href="https://www.whitehouse.gov/ceq/">Council on Environmental Quality</a></li>
 			      </ul>
 			    </div>
 		    </div>		    
@@ -137,25 +149,13 @@ if( isset($_POST['email']) )
 	</div>
 </div>
 <script type="text/javascript" src="js/universal/jquery.js"></script>
-<script src="js/style-switcher/jquery-1.js"></script>
-<script src="js/style-switcher/styleselector.js"></script>
-<script type="text/javascript" src="js/revolutionslider/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="js/revolutionslider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/mainmenu/bootstrap.min.js"></script>
-<script src="js/mainmenu/fhmm.js"></script>
-<script type="text/javascript" src="js/carousel/jquery.jcarousel.min.js"></script>
 <script src="js/scrolltotop/totop.js" type="text/javascript"></script>
-<script src="js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-			jQuery('#mycarouselthree').jcarousel();
-	});
-</script>
 <script type="text/javascript" src="js/accordion/custom.js"></script>
-<script type="text/javascript" src="js/revolutionslider/rs-plugin/js/custom.js"></script>
-<script type="text/javascript" src="js/mainmenu/sticky.js"></script>
-<script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script>
-<script src="js/progressbar/progress.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+
 <!-- Google Tag Manager -->
   <noscript><iframe src="//Blockedwww.googletagmanager.com/ns.html?id=GTM-L8ZB"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -165,12 +165,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
 "//Blockedwww.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,"script","dataLayer","GTM-L8ZB");</script>
 <!-- End Google Tag Manager -->
-<script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
-<script type="text/javascript" src="js/cubeportfolio/main3.js"></script>
-<script defer src="js/carousel/jquery.flexslider.js"></script>
-<script defer src="js/carousel/custom.js"></script>
-<script type="text/javascript" src="js/lightbox/jquery.fancybox.js"></script>
-<script type="text/javascript" src="js/lightbox/custom.js"></script>
+
 <script type="text/javascript">
 	// Menu drop down effect
 	$('.dropdown-toggle').dropdownHover().dropdown();

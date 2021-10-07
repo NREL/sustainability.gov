@@ -6,17 +6,7 @@ IMAGE_TAG ?= latest
 REGISTRY-IDS = 991404956194
 REPO = $(REGISTRY-IDS).dkr.ecr.us-west-2.amazonaws.com/nrel-sustainability-web
 NAME = sustainability
-
-HEAD_VER ?= =$(shell git log -1 --pretty=tformat:%h)
-
-ifdef CODEBUILD_SOURCE_VERSION_SHORT
-  HEAD_VER=$(CODEBUILD_SOURCE_VERSION_SHORT)
-else ifdef CODEBUILD_SOURCE_VERSION
-  HEAD_VER=$(CODEBUILD_SOURCE_VERSION)
-else
-	HEAD_VER=$(shell git log -1 --pretty=tformat:%h)
-endif
-
+HEAD_VER=$(shell git log -1 --pretty=tformat:%h)
 TAG ?= $(IMAGE_TAG)
 
 PLATFORM ?= linux/amd64
