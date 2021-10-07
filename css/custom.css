@@ -34,7 +34,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .chart-thumbs a img{border:1px solid #ccc;width:100%;}
 .content_fullwidth .chart-thumbs a{text-decoration: none;}
 .clear{clear:both;}
-.container{margin-bottom:10px; margin-top:10px;}
+.container{padding-bottom:10px; margin-top:10px;}
 .content_fullwidth a{color:#0064bc;text-decoration:underline;}
 .content_fullwidth a:hover{color:#004884;}
 .content_fullwidth li{padding-bottom:.75em;}
