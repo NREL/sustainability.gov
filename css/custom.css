@@ -208,8 +208,7 @@ img.right{margin:0 0 1em 1em;}
 .scorecard a:before, .plan a:before{background-color:#ffffff;bottom:0px;border-radius:50%;color:green;content: "\f00e";font-family:FontAwesome;font-size:30px;padding:.5em;position:absolute;right:0px;}
 .plan a:before{content: "\f019";}
 .scorecard:hover a:before, .plan:hover a:before{color:#0064bc;}
-.searchform{float:right;padding-left:10px;padding-top:10px;}
-
+.searchform{float:right;margin-bottom:10px;padding-left:10px;padding-top:10px;}
 .flexslider{background-color:#efefef;margin:0 auto;width:1240px;}
 .flexslider_wrapper{background-color:#e0e5ef;}
 .slides, .slides li{position:relative;}
@@ -260,7 +259,7 @@ img.right{margin:0 0 1em 1em;}
 .wrapper_boxed{width:auto;}
 
 @media only screen and (max-width: 767px) and (min-width: 480px) {
-	#trueHeader #logo {background-size:contain;}
+	#trueHeader #logo {background-size:contain;min-width: auto;}
 	.agency_select{float:none;}
 	.callout{float:none;width:80%;}
   .container{width:90%;}
