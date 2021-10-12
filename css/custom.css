@@ -60,7 +60,6 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .footer1 .one_third ul{padding-left:2.25em; padding-right:1em;} 
 .footer1 a.subscribe{background-color: #0064bc;color: #fff;padding: .75em 2.5em;}
 .footer1 a.subscribe:hover{background-color:#0378DF;}
-.footer1 .one_third:last-of-type{padding-left:2.25em; width:calc(100% - 2.25em)}
 .fsp-header{display:inline-block;position: relative;width:100%;}
 .fsp-header h2{color:#fff; display:inline-block; font-size: 300%; font-weight: 300;line-height:normal;margin:4.5em 0 0 0;padding:.5em;}
 .fsp-header img{float:left;margin-right:15px;width:4%;}
@@ -264,6 +263,7 @@ img.right{margin:0 0 1em 1em;}
 	.agency_select{float:none;}
 	.callout{float:none;width:80%;}
   .container{width:90%;}
+  .footer1 .one_third:last-of-type h3, .footer1 .one_third:last-of-type .subscribe {margin-left:2.25em;}
 	.logo{width:100%;}
   .menu_main{margin:auto;display:block;}
   .navbar-default .navbar-toggle {float:none;width:100%;}
