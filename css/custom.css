@@ -39,6 +39,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .content_fullwidth a:hover{color:#004884;}
 .content_fullwidth li{padding-bottom:.75em;}
 .content_fullwidth ul{padding-left:2.5em;}
+.copyright_info a{text-decoration: none; color:#999;}
 .download{background-color:rgba(0, 72, 133, .75);margin-left:19em;padding:1em 1em 1em 3em;}
 .download.ca{margin-left:14em;}
 .download:before{content: "\f019";font-family:FontAwesome;font-size:20px;margin-left:-1.5em;padding:0 .5em 0 0;}
