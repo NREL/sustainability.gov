@@ -3,6 +3,7 @@ h2{color:#00356f;font-size:30px;font-weight:300;line-height:normal;margin-top:1e
 h2.section_title_white{margin-bottom:0;}
 h3{color:#00356f;clear:both;text-transform:none;}
 ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";margin-left:-1.5em;padding-right:.5em;}
+#chartdiv {width: 100%;height: 500px;padding-bottom:2em;}
 #mc_embed_signup{clear:left;}
 #tipue_search_input{max-width: 100px;}
 #trueHeader #logo{background:center / auto no-repeat url(../images/ofs_ceq.png);min-height:71px;min-width:581px;}
@@ -40,6 +41,10 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .content_fullwidth li{padding-bottom:.75em;}
 .content_fullwidth ul{padding-left:2.5em;}
 .copyright_info a{text-decoration: none; color:#999;}
+.countries.container_full div.one_fourth{margin-right:4%;}
+.countries.container_full div div{border-bottom:1px solid #efefef;font-size:80%;padding:10px;margin:5px;}
+.countries.container_full div div:first-of-type{border-top:1px solid #efefef;}
+.countries .year{display:block;float:right;line-height: normal; padding:3px;border:1px solid #ccc;}
 .download{background-color:rgba(0, 72, 133, .75);margin-left:19em;padding:1em 1em 1em 3em;}
 .download.ca{margin-left:14em;}
 .download:before{content: "\f019";font-family:FontAwesome;font-size:20px;margin-left:-1.5em;padding:0 .5em 0 0;}
@@ -58,12 +63,15 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .footer1, .footer1  a, .footer1 h3{color:#fff;text-decoration:none;}
 .footer1 .container{margin-top: 0px; padding-top: 0;}
 .footer1 li{font-weight:300;}
+.footer1 .one_third{margin-right:4%;}
+.footer1 .one_third:last-of-type{margin-right:0;}
 .footer1 .one_third ul{padding-left:2.25em; padding-right:1em;} 
 .footer1 a.subscribe{background-color: #0064bc;color: #fff;padding: .75em 2.5em;}
 .footer1 a.subscribe:hover{background-color:#0378DF;}
 .fsp-header{display:inline-block;position: relative;width:100%;}
-.fsp-header h2{color:#fff; display:inline-block; font-size: 300%; font-weight: 300;line-height:normal;margin:4.5em 0 0 0;padding:.5em;}
-.fsp-header img{float:left;margin-right:15px;width:4%;}
+.fsp-header .container{padding:0;}
+.fsp-header h2{color:#fff; display:inline-block; font-size: 225%; font-weight: 300;line-height:normal;margin:8em auto -20px auto;padding:.5em .5em .5em 3em;position: relative;width:calc(100% - 3.5em);}
+.fsp-header img{position: absolute; top:-40px; left:-50px; max-width:140px;}
 .fsp-header .title{float:left; position: relative; width:calc(57% - 40px)}
 
 /*brown*/
@@ -72,15 +80,15 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .carbon .goal, .procurement .goal, .workforce .goal{color:#B28e57;}
 .fsp-carbon a, .fsp-procurement a, .fsp-workforce a, .fsp-carbon a:hover, .fsp-procurement a:hover, .fsp-workforce a:hover {color:#B28e57;}
 .fsp-carbon:hover, .fsp-procurement:hover, .fsp-workforce:hover {background-color:rgba(178,142,87,0.15);}
-.carbon .fsp-header {background: no-repeat center center url("../images/fsp-carbon-solar-array.jpg");background-size:cover;}
-.procurement .fsp-header{}
-.workforce .fsp-header{}
+.carbon .fsp-header {background: no-repeat center bottom url("../images/banner-cfe.jpg");background-size:cover;}
+.procurement .fsp-header{background: no-repeat center center url("../images/banner-procurement.jpg");background-size:cover;}
+.workforce .fsp-header{background: no-repeat center center url("../images/banner-workforce.jpg");background-size:cover;}
 .left-rail .accordion-container.carbon:hover, .left-rail .accordion-container.procurement:hover, .left-rail .accordion-container.workforce:hover{background-color:rgba(178, 142, 87, .3);}
 .left-rail .accordion-container.carbon a.header, .left-rail .accordion-container.procurement a.header, .left-rail .accordion-container.workforce a.header{color:#B28E57;}
 .left-rail .accordion-container.carbon::before, .left-rail .accordion-container.procurement::before, .left-rail .accordion-container.workforce::before{color:#414141;}
 .carbon .nav-inpage li a, .procurement .nav-inpage li a, .workforce .nav-inpage li a{color:#272727;}
 .carbon .nav-inpage li a:hover, .carbon .nav-inpage li.active a, .procurement .nav-inpage li a:hover, .procurement .nav-inpage li.active a, .workforce .nav-inpage li a:hover, .workforce .nav-inpage li.active a{border-bottom:3px solid #B28E57;}
-.carbon .nav-inpage h3, .procurement .nav-inpage h3, .workforce .nav-inpage h3{color:#926725;}
+.carbon .container h3, .carbon .nav-inpage h3, .procurement .container h3, .procurement .nav-inpage h3, .workforce .container h3, .workforce .nav-inpage h3{color:#926725;}
 
 /*green*/
 .buildings .fsp-header h2, .resilience .fsp-header h2, .partnerships .fsp-header h2 {background-color:#30804C;}
@@ -88,15 +96,15 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .buildings .goal, .resilience .goal, .partnerships .goal{color:#30804C;}
 .fsp-buildings a, .fsp-resilience a, .fsp-partnerships a, .fsp-buildings a:hover, .fsp-resilience a:hover, .fsp-partnerships a:hover {color:#30804C;}
 .fsp-buildings:hover, .fsp-resilience:hover, .fsp-partnerships:hover {background-color:rgba(48,128,53,0.15);}
-.buildings .fsp-header{background: no-repeat center center url("../images/fsp-carbon-solar-array.jpg");background-size:cover;}
-.resilience .fsp-header{}
-.partnerships .fsp-header{}
+.buildings .fsp-header{background: no-repeat center bottom url("../images/banner-buildings.jpg");background-size:cover;}
+.resilience .fsp-header{background: no-repeat center center url("../images/banner-adaptation.jpg");background-size:cover;}
+.partnerships .fsp-header{background: no-repeat center center url("../images/banner-partnership.jpg");background-size:cover;}
 .left-rail .accordion-container.buildings:hover, .left-rail .accordion-container.resilience:hover, .left-rail .accordion-container.partnerships:hover{background-color:rgba(48, 128, 53, .1);}
 .left-rail .accordion-container.buildings a.header, .left-rail .accordion-container.resilience a.header, .left-rail .accordion-container.partnerships a.header{color:#30804C;}
 .left-rail .accordion-container.buildings::before, .left-rail .accordion-container.resilience::before, .left-rail .accordion-container.partnerships::before{color:#414141;}
 .buildings .nav-inpage li a, .resilience .nav-inpage li a, .partnerships .nav-inpage li a{color:#272727;}
 .buildings .nav-inpage li a:hover, .buildings .nav-inpage li.active a, .resilience .nav-inpage li a:hover, .resilience .nav-inpage li.active a, .partnerships .nav-inpage li a:hover, .partnerships .nav-inpage li.active a{border-bottom:3px solid #30804C;}
-.buildings .nav-inpage h3, .resilience .nav-inpage h3, .partnerships .nav-inpage h3{color:#30804C;}
+.buildings .container h3, .buildings .nav-inpage h3, .resilience .container h3, .resilience .nav-inpage h3, .partnerships .container h3, .partnerships .nav-inpage h3{color:#30804C;}
 
 /*blue*/
 .fleet .fsp-header h2, .emissions .fsp-header h2, .justice .fsp-header h2 {background-color:#0064BC;}
@@ -104,15 +112,15 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .fleet .goal, .emissions .goal, .justice .goal{color:#0064BC;}
 .fsp-fleet a, .fsp-emissions a, .fsp-justice a, .fsp-fleet a:hover, .fsp-emissions a:hover, .fsp-justice a:hover {color:#0064BC;}
 .fsp-fleet:hover, .fsp-emissions:hover, .fsp-justice:hover {background-color:rgba(0,100,188,0.15);}
-.fleet .fsp-header{background: no-repeat center center url("../images/fsp-carbon-solar-array.jpg");background-size:cover;}
-.emissions .fsp-header{}
-.justice .fsp-header{}
+.fleet .fsp-header{background: no-repeat center center url("../images/banner-zev.jpg");background-size:cover;}
+.emissions .fsp-header{background: no-repeat center bottom url("../images/banner-operations.jpg");background-size:cover;}
+.justice .fsp-header{background: no-repeat center center url("../images/banner-justice.jpg");background-size:cover;}
 .left-rail .accordion-container.fleet:hover, .left-rail .accordion-container.emissions:hover, .left-rail .accordion-container.justice:hover{background-color:rgba(0, 100, 188, .1);}
 .left-rail .accordion-container.fleet a.header, .left-rail .accordion-container.emissions a.header, .left-rail .accordion-container.justice a.header{color:#0064BC;}
 .left-rail .accordion-container.fleet::before, .left-rail .accordion-container.emissions::before, .left-rail .accordion-container.justice::before{color:#414141;}
 .fleet .nav-inpage li a, .emissions .nav-inpage li a, .justice .nav-inpage li a{color:#272727;}
 .fleet .nav-inpage li a:hover, .fleet .nav-inpage li.active a, .emissions .nav-inpage li a:hover, .emissions .nav-inpage li.active a, .justice .nav-inpage li a:hover, .justice .nav-inpage li.active a{border-bottom:3px solid #0064BC;}
-.fleet .nav-inpage h3, .emissions .nav-inpage h3, .justice .nav-inpage h3{color:#0064BC;}
+.fleet .container h3, .fleet .nav-inpage h3, .emissions .container h3, .emissions .nav-inpage h3, .justice .container h3, .justice .nav-inpage h3{color:#0064BC;}
 
 .fsp-icons{display:inline-block;width:70%;}
 .fsp-icons ul{clear:both;}
@@ -180,6 +188,7 @@ img.right{margin:0 0 1em 1em;}
 .page_title2{background:none;background-color: #004884;}
 .page_title2 .pagenation i {color:#fff;}
 .page_title2 .pagenation a {color: #78a6ce;text-decoration: underline;}
+.plan-nav{display:none;}
 .project{width:80%;}
 .project img{width:100%;}
 .project .accordion-container{clear:both;display:inline-block;width:100%;}
@@ -200,7 +209,7 @@ img.right{margin:0 0 1em 1em;}
 .project a.carbon, .project a.procurement, .project a.workforce {color:#B28e57;}
 .project a.fleet, .project a.emissions, .project a.justice {color:#023f75;}
 .project a.buildings, .project a.resilience, .project a.partnerships {color:#186031;}
-.right-rail{float:right;width:30%;padding:20px;}
+.right-rail{float:right;width:30%;padding-left:20px;padding-right:0;padding-top:20px;}
 .right{float:right;}
 .scorecard-wrapper, .plan-wrapper{background-color:#e0e5ef;display:inline-block;margin:2% 0;padding:2%; width:96%;}
 .scorecard-wrapper .download, .plan-wrapper .download, .scorecard-wrapper .download a, .plan-wrapper .download a{color:#fff;}
@@ -265,6 +274,7 @@ img.right{margin:0 0 1em 1em;}
 	.callout{float:none;width:80%;}
   .container{width:90%;}
   .footer1 .one_third:last-of-type h3, .footer1 .one_third:last-of-type .subscribe {margin-left:2.25em;}
+  .fsp-header h2{margin-top:4.5em 0 0 0;}
 	.logo{width:100%;}
   .menu_main{margin:auto;display:block;}
   .navbar-default .navbar-toggle {float:none;width:100%;}
