@@ -8,7 +8,7 @@ const config = {
   maxzoom:5,
   title: "Federal Agencies Leading by Example",
   description:
-    "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order 14XX.",
+    "Federal agencies across the country are taking action now to implement the President's Federal Sustainability Plan and Executive Order.",
   sideBarInfo: ["Location_Name", "Snippet"],
   popupInfo: ["Popup"],
   url: ["URL"],
