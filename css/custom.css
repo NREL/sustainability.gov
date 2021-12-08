@@ -242,9 +242,11 @@ table td, table th{font-size:80%;line-height:normal;}
 .slides li .caption-text h3{color:#fff;font-size:30px;font-weight:400;line-height:normal;text-shadow:rgba(0, 0, 0, 0.5) 0px 2px 0px;text-transform: uppercase;}
 .slides li .caption-text p{color:#fff;font-size:14px;line-height:1.7em;margin-bottom:1em;text-shadow: 0 0 0 0;}
 .slides li .caption-text .slide-btn{margin-top:2em;}
-.slides li .caption-text .slide-btn a{background-color:rgba(0,0,0,.6);clear:left;color: #fff;font-size: 16px;font-weight: normal;text-align: center;text-transform: uppercase;padding: 12px 25px;border: 3px solid #fff;}
+.slides li .caption-text .slide-btn a{background-color:rgba(0,0,0,.6);clear:left;color: #fff;font-size: 16px;font-weight: normal;text-align: center;text-transform: uppercase;padding: 12px 25px;border: 3px solid #fff;text-decoration: none;}
 .slides li .caption-text.ggi .slide-btn a{background-color:rgba(0,0,0,.2); border-color:#00a871;}
 .slides li .caption-text .slide-btn a:hover{background-color:#fff;color:#000000;}
+.slides li .caption-text.fsp .slide-btn a{background-color:#3478a5; border-color:#3478a5;text-decoration: none}
+.slides li .caption-text.fsp .slide-btn a:hover{background-color:#3299de; border-color:#3299de;text-decoration: none;color:#fff;}
 .slides li .caption-text.cap{background-color:rgba(0, 53, 111, .90);border:10px solid;border-color:rgba(153, 6, 9, .80); color:#fff;width:30%;}
 .slides li .caption-text.cap{top:2em; right:2em;padding:2em;} 
 .slides li .caption-text.cap h3, .slides li .caption-text.cap p{color:#fff;text-shadow: none;} 
@@ -253,7 +255,7 @@ table td, table th{font-size:80%;line-height:normal;}
 .slides li .caption-text.cap .slide-btn a{background-color:#990609;}
 .slides li .caption-text.cap .slide-btn a:hover{background-color:#B40206;color:#fff;}
 .slides li .caption-text.data{top:8em; right:10em;}
-.slides li .caption-text.fsp{background-color:rgba(25, 98, 51, .75);left:0;top:0;margin:2em;padding:2em;width:50%;}
+.slides li .caption-text.fsp{background-color:rgba(7, 45, 75, .8);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
 .slides li .caption-text.fsp h3{font-size:55px;text-transform: none;}
 .slides li .caption-text.fsp p{font-size:18px;color:#fff;display:block;line-height:1.7em; text-shadow: 0 0 0 0;}
 .slides li .caption-text.fsp a{color:#fff;text-decoration: underline;}
