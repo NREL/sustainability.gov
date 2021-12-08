@@ -21,7 +21,7 @@ const map = new mapboxgl.Map({
 function flyToLocation(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 11,
+    zoom: 5,
   });
 }
 
@@ -368,7 +368,7 @@ const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
   mapboxgl: mapboxgl, // Set the mapbox-gl instance
   marker: true, // Use the geocoder's default marker style
-  zoom: 11,
+  zoom: 5,
 });
 
 function sortByDistance(selectedPoint) {
@@ -454,8 +454,8 @@ map.on('load', () => {
             data: geojsonData,
           },
           paint: {
-            'circle-radius': 5, // size of circles
-            'circle-color': '#3D2E5D', // color of circles
+            'circle-radius': 15, // size of circles
+            'circle-color': '#0047AB', // color of circles
             'circle-stroke-color': 'white',
             'circle-stroke-width': 1,
             'circle-opacity': 0.7,
