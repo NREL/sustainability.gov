@@ -49,8 +49,8 @@ if( isset($_POST['email']) )
   <link rel="stylesheet" href="js/carousel/flexslider.css" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="js/carousel/skin.css" />
   <link rel="stylesheet" href="js/form/sky-forms.css" type="text/css" media="all">
-  <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />  <link rel="stylesheet" href="css/custom.css" />
-	<link rel="stylesheet" href="tipuesearch/css/tipuesearch.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />  <link rel="stylesheet" href="css/custom.css" />	<link rel="stylesheet" href="tipuesearch/css/tipuesearch.css" type="text/css">
+  <link rel="stylesheet" href="css/print.css" media="print" type="text/css">
 </head>
 <body>
 <div class="wrapper_boxed">
@@ -72,7 +72,7 @@ if( isset($_POST['email']) )
 		            <div id="defaultmenu" class="navbar-collapse collapse">
 		              <ul class="nav navbar-nav">
 			              <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
-                    <!--<li><a href="federalsustainabilityplan/index.html">Plan</a></li>-->    
+                    <li><a href="federalsustainabilityplan/index.html">Plan</a></li>    
 		                <li><a href="policy.html">Policy</a></li>
 			              <li><a href="performance.html">Progress</a></li>
 			              <li><a href="resources.html">Resources &amp; Guidance</a></li>
@@ -142,12 +142,11 @@ if( isset($_POST['email']) )
 		<div class="clearfix"></div>
 		<div class="copyright_info">
 		  <div class="container">
-		    <div>CEQ acknowledges and appreciates the support and service provided by the U.S. Department of Energy's Federal Energy Management Program supporting this website.</div>
+		    <div>CEQ acknowledges and appreciates the support and service provided by the U.S. Department of Energy's <a href="https://www.energy.gov/eere/femp/federal-energy-management-program">Federal Energy Management Program</a> supporting this website.</div>
 		  </div>
 		</div>
 		<a href="#" class="scrollup">Scroll</a>
 	</div>
-</div>
 <script type="text/javascript" src="js/universal/jquery.js"></script>
 <script src="js/mainmenu/bootstrap.min.js"></script>
 <script src="js/scrolltotop/totop.js" type="text/javascript"></script>

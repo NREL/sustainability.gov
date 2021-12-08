@@ -1,0 +1,40 @@
+/* CSS Document */
+body, 
+h2, h3, h4, h5,
+.footer1, 
+.footer1 a, 
+.footer1 h3, 
+.page_title2 
+.title h1, 
+.matrix .goalnumber, 
+.plan-wrapper .download,
+.plan-wrapper .download a,
+.scorecard-wrapper .download,
+.scorecard-wrapper .download a
+{color:black;}
+
+header, 
+.scrollup, 
+.footer1 .one_third:last-of-type, 
+.footer1 .one_third:nth-child(2), 
+.agency_select
+{display:none;}
+
+.container, 
+.one_third 
+{width:100%;}
+
+.content_fullwidth, 
+.footer1 .one_third ul, 
+.page_title2, 
+.footer1
+{padding:0;}
+
+.one_full .matrix td, 
+.plan-wrapper,
+.scorecard-wrapper, 
+.content_fullwidth .chart-thumbs a
+{border:1px solid black;}
+
+.copyright{line-height: normal;}
+.footer1 span{display:block;}
