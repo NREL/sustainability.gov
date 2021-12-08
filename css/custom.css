@@ -1,7 +1,7 @@
 body, p{color:#414141;font-size:16px;line-height:26px;}
 h2{color:#00356f;font-size:30px;font-weight:300;line-height:normal;margin-top:1em;text-transform:none;}
 h2.section_title_white{margin-bottom:0;}
-h3{color:#00356f;clear:both;text-transform:none;}
+h3{color:#00356f;clear:both;text-transform:none;line-height: 1.3em;}
 ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";margin-left:-1.5em;padding-right:.5em;}
 #chartdiv {width: 100%;height: 500px;padding-bottom:2em;}
 #mc_embed_signup{clear:left;}
@@ -68,6 +68,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .footer1 .one_third ul{padding-left:2.25em; padding-right:1em;} 
 .footer1 a.subscribe{background-color: #0064bc;color: #fff;padding: .75em 2.5em;}
 .footer1 a.subscribe:hover{background-color:#0378DF;}
+.footer1 span{display:none;}
 .fsp-header{display:inline-block;position: relative;width:100%;}
 .fsp-header .container{padding:0;}
 .fsp-header h2{color:#fff; display:inline-block; font-size: 225%; font-weight: 300;line-height:normal;margin:8em auto -20px auto;padding:.5em .5em .5em 3em;position: relative;width:calc(100% - 3.5em);}
@@ -75,7 +76,8 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .fsp-header .title{float:left; position: relative; width:calc(57% - 40px)}
 
 /*brown*/
-.carbon .fsp-header h2, .procurement .fsp-header h2, .workforce .fsp-header h2{background-color:rgba(178, 142, 87);}
+.carbon .fsp-header h2, .procurement .fsp-header h2, .workforce .fsp-header h2, .matrix .carbon td.goalnumber {background-color:rgba(178, 142, 87);}
+.matrix .carbon .yes {color:rgba(178, 142, 87);}
 .carbon .goal-txt span, .procurement .goal-txt span, .workforce .goal-txt span{color:#926725;}
 .carbon .goal, .procurement .goal, .workforce .goal{color:#B28e57;}
 .fsp-carbon a, .fsp-procurement a, .fsp-workforce a, .fsp-carbon a:hover, .fsp-procurement a:hover, .fsp-workforce a:hover {color:#B28e57;}
@@ -83,7 +85,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .carbon .fsp-header {background: no-repeat center bottom url("../images/banner-cfe.jpg");background-size:cover;}
 .procurement .fsp-header{background: no-repeat center center url("../images/banner-procurement.jpg");background-size:cover;}
 .workforce .fsp-header{background: no-repeat center center url("../images/banner-workforce.jpg");background-size:cover;}
-.left-rail .accordion-container.carbon:hover, .left-rail .accordion-container.procurement:hover, .left-rail .accordion-container.workforce:hover{background-color:rgba(178, 142, 87, .3);}
+.left-rail .accordion-container.carbon:hover, .left-rail .accordion-container.procurement:hover, .left-rail .accordion-container.workforce:hover, .matrix .carbon{background-color:rgba(178, 142, 87, .3);}
 .left-rail .accordion-container.carbon a.header, .left-rail .accordion-container.procurement a.header, .left-rail .accordion-container.workforce a.header{color:#B28E57;}
 .left-rail .accordion-container.carbon::before, .left-rail .accordion-container.procurement::before, .left-rail .accordion-container.workforce::before{color:#414141;}
 .carbon .nav-inpage li a, .procurement .nav-inpage li a, .workforce .nav-inpage li a{color:#272727;}
@@ -91,7 +93,8 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .carbon .container h3, .carbon .nav-inpage h3, .procurement .container h3, .procurement .nav-inpage h3, .workforce .container h3, .workforce .nav-inpage h3{color:#926725;}
 
 /*green*/
-.buildings .fsp-header h2, .resilience .fsp-header h2, .partnerships .fsp-header h2 {background-color:#30804C;}
+.buildings .fsp-header h2, .resilience .fsp-header h2, .partnerships .fsp-header h2, .matrix .buildings td.goalnumber {background-color:#30804C;}
+.matrix .buildings .yes {color:#30804C;}
 .buildings .goal-txt span, .resilience .goal-txt span, .partnerships .goal-txt span{color:#186031;}
 .buildings .goal, .resilience .goal, .partnerships .goal{color:#30804C;}
 .fsp-buildings a, .fsp-resilience a, .fsp-partnerships a, .fsp-buildings a:hover, .fsp-resilience a:hover, .fsp-partnerships a:hover {color:#30804C;}
@@ -99,7 +102,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .buildings .fsp-header{background: no-repeat center bottom url("../images/banner-buildings.jpg");background-size:cover;}
 .resilience .fsp-header{background: no-repeat center center url("../images/banner-adaptation.jpg");background-size:cover;}
 .partnerships .fsp-header{background: no-repeat center center url("../images/banner-partnership.jpg");background-size:cover;}
-.left-rail .accordion-container.buildings:hover, .left-rail .accordion-container.resilience:hover, .left-rail .accordion-container.partnerships:hover{background-color:rgba(48, 128, 53, .1);}
+.left-rail .accordion-container.buildings:hover, .left-rail .accordion-container.resilience:hover, .left-rail .accordion-container.partnerships:hover, .matrix .buildings{background-color:rgba(48, 128, 53, .1);}
 .left-rail .accordion-container.buildings a.header, .left-rail .accordion-container.resilience a.header, .left-rail .accordion-container.partnerships a.header{color:#30804C;}
 .left-rail .accordion-container.buildings::before, .left-rail .accordion-container.resilience::before, .left-rail .accordion-container.partnerships::before{color:#414141;}
 .buildings .nav-inpage li a, .resilience .nav-inpage li a, .partnerships .nav-inpage li a{color:#272727;}
@@ -107,7 +110,8 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .buildings .container h3, .buildings .nav-inpage h3, .resilience .container h3, .resilience .nav-inpage h3, .partnerships .container h3, .partnerships .nav-inpage h3{color:#30804C;}
 
 /*blue*/
-.fleet .fsp-header h2, .emissions .fsp-header h2, .justice .fsp-header h2 {background-color:#0064BC;}
+.fleet .fsp-header h2, .emissions .fsp-header h2, .justice .fsp-header h2, .matrix .fleet td.goalnumber {background-color:#0064BC;}
+.matrix .fleet .yes {color:#0064BC;}
 .fleet .goal-txt span, .emissions .goal-txt span, .justice .goal-txt span{color:#023f75;}
 .fleet .goal, .emissions .goal, .justice .goal{color:#0064BC;}
 .fsp-fleet a, .fsp-emissions a, .fsp-justice a, .fsp-fleet a:hover, .fsp-emissions a:hover, .fsp-justice a:hover {color:#0064BC;}
@@ -115,7 +119,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .fleet .fsp-header{background: no-repeat center center url("../images/banner-zev.jpg");background-size:cover;}
 .emissions .fsp-header{background: no-repeat center bottom url("../images/banner-operations.jpg");background-size:cover;}
 .justice .fsp-header{background: no-repeat center center url("../images/banner-justice.jpg");background-size:cover;}
-.left-rail .accordion-container.fleet:hover, .left-rail .accordion-container.emissions:hover, .left-rail .accordion-container.justice:hover{background-color:rgba(0, 100, 188, .1);}
+.left-rail .accordion-container.fleet:hover, .left-rail .accordion-container.emissions:hover, .left-rail .accordion-container.justice:hover, .matrix .fleet{background-color:rgba(0, 100, 188, .1);}
 .left-rail .accordion-container.fleet a.header, .left-rail .accordion-container.emissions a.header, .left-rail .accordion-container.justice a.header{color:#0064BC;}
 .left-rail .accordion-container.fleet::before, .left-rail .accordion-container.emissions::before, .left-rail .accordion-container.justice::before{color:#414141;}
 .fleet .nav-inpage li a, .emissions .nav-inpage li a, .justice .nav-inpage li a{color:#272727;}
@@ -140,6 +144,7 @@ img.right{margin:0 0 1em 1em;}
 .latest_works p{color:#fff;}
 .list{font-size:14px;}
 .left{float:left;padding:0 2em 1em 0;}
+.left-rail p a{color: #0064bc; text-decoration: underline;}
 .left-rail{float:left;margin-top:2em;width:60%;}
 .left-rail .accordion-container a.header{display:inline-block; font-size:16px; font-weight:bold; line-height:normal;text-indent:-.9em;margin-bottom:0;}
 .left-rail .accordion-container .header span{font-weight:bold;}
@@ -148,6 +153,14 @@ img.right{margin:0 0 1em 1em;}
 .left-rail .accordion-container p:first-of-type {margin-top:1em;}
 .left-rail .accordion-container ul {margin-left:3em;}
 .logo{width:auto;}
+.matrix{width:100%;}
+table td, table th{font-size:80%;line-height:normal;}
+.matrix .goalnumber{color:#fff;}
+.one_full .matrix th{background:none;border:none;vertical-align: bottom;}
+.one_full table.matrix, .one_full .matrix td, .one_full .matrix tr{border:none;}
+.matrix th.noborder{border:none;background:none;}
+.matrix .yes{font-size:120%;font-weight:bold;text-align: center;}
+.matrix .yes{line-height:0;vertical-align: middle;}
 .menu_main .navbar-default .navbar-nav > li > a:hover{background-color: #e3f0f7;}
 .menu_main .navbar-default .navbar-nav > .active > a{color:#fff;background-color: #4698c7;}
 .menu_main .navbar-default .navbar-nav > .active > a:hover{color:#454545;background-color: #e3f0f7;}
@@ -189,21 +202,24 @@ img.right{margin:0 0 1em 1em;}
 .page_title2 .pagenation i {color:#fff;}
 .page_title2 .pagenation a {color: #78a6ce;text-decoration: underline;}
 .plan-nav{display:none;}
-.project{width:80%;}
+.project{margin-bottom:.5em;width:calc(100% - 32px);}
 .project img{width:100%;}
 .project .accordion-container{clear:both;display:inline-block;width:100%;}
 .project .accordion-container:hover{background-color:#efefef;}
 .project .collapse, .project .in{margin-left:2em;margin-right:2em;}
-.project .elements{display:inline-block;padding-bottom:2em;position: relative;width:100%;}
-.project .elements a{display:inline-block;float:left;font-size: 14px;line-height:normal;margin:0 5px;text-align:center; text-decoration:none; width:15%;}
+.project .elements ul{padding-left:0;}
+.project .elements li{display:inline-block;padding-bottom:2em;position: relative;width:100%;}
+.project .elements li p{margin-top:1em;}
+.project .elements a img{display:inline-block;float:left;margin:0 5px;width:10%;}
 .project .elements img{}
 .project h2{color:#0064bc;margin:.5em 2em 0 4.5em;}
 .project .header span{float:left;font-size:150%;font-weight:600;margin-top:.5em;}
-.project .location{border-top:1px solid #ccc; clear:both;padding:1em 0 1em 1.9em;padding-top:1em;}
+.project .location{/*border-top:1px solid #ccc; */clear:both;padding:1em 0 1em 1.9em;padding-top:1em;}
 .project .location a{display:inline-block;text-decoration: none;}
 .project .location a span{text-decoration: underline;}
 .project .location a::before{font-family:FontAwesome;content: "\f041";font-size:130%;margin-left:-1.5em;padding-right:.5em;}
-.project img.right{float:right;margin:0 0 1em 1em;width:50%;}
+.project .right{float:right;margin:0 0 1em 1em;width:40%;}
+.project .right p{font-size:80%;line-height:normal;}
 .project .snippet{font-size:70%;line-height: 1.5em;margin:.5em 2em 0 9em;}
 .project .thumb{float:left;margin:.5em;width:10%;}
 .project a.carbon, .project a.procurement, .project a.workforce {color:#B28e57;}
