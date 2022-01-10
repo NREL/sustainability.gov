@@ -22,6 +22,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .agency_select input, .performance-col input{background-color:#0064bc;border:none;color:#fff;font-weight:bold;cursor: pointer;}
 .agency_select input:hover, .performance-col input:hover{background-color:#004884;color:#fff;}
 .archive hr{margin:3em 0;}
+.attr{font-size:80%;line-height:normal;}
 .backtotop{padding:10px 0 0;text-align:right;}
 .backtotop a:before{font-family:FontAwesome;color:#454545;content: "\f139";margin-left:-1.5em;padding-right:.5em;}
 .callout{background-color:#fbfbfb;border:1px solid #ccc;float:right;margin:0 0 10px 10px;padding:20px;width:25%;}
@@ -247,6 +248,8 @@ table td, table th{font-size:80%;line-height:normal;}
 .slides li .caption-text .slide-btn a:hover{background-color:#fff;color:#000000;}
 .slides li .caption-text.fsp .slide-btn a{background-color:#3478a5; border-color:#3478a5;text-decoration: none}
 .slides li .caption-text.fsp .slide-btn a:hover{background-color:#3299de; border-color:#3299de;text-decoration: none;color:#fff;}
+.slides li .caption-text.hayhoe .slide-btn a{background-color:#890115; border-color:#890115;text-decoration: none}
+.slides li .caption-text.hayhoe .slide-btn a:hover{background-color:#890115; border-color:#890115;text-decoration: none;color:#fff;}
 .slides li .caption-text.cap{background-color:rgba(0, 53, 111, .90);border:10px solid;border-color:rgba(153, 6, 9, .80); color:#fff;width:30%;}
 .slides li .caption-text.cap{top:2em; right:2em;padding:2em;} 
 .slides li .caption-text.cap h3, .slides li .caption-text.cap p{color:#fff;text-shadow: none;} 
@@ -262,6 +265,10 @@ table td, table th{font-size:80%;line-height:normal;}
 .slides li .caption-text.ggi{right:0;top:40px;margin:2em;width:40%;}
 .slides li .caption-text.ggi p{color:rgba(255, 255, 255, .9);font-size:18px;margin-top:1em;}
 .slides li .caption-text.ggi img{width:100%;}
+.slides li .caption-text.hayhoe{background:none;left:0;top:0;margin:0em;padding:3.5em 2.3em 0em;width:50%;}
+.slides li .caption-text.hayhoe h3{font-size:46px;text-transform: none;}
+.slides li .caption-text.hayhoe p{font-size:18px;color:#0f0401;display:block;line-height:1.7em; text-shadow: 0 0 0 0;}
+.slides li .caption-text.hayhoe a{color:#fff;text-decoration: underline;}
 .slides li .caption-text.potus{left:0;top:0;margin:2em;width:35%;}
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
 .flex-control-nav li{background-color:#fff;border:1px solid #fff;cursor: pointer;font-weight:bold;padding:.25em .75em;}
