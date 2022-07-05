@@ -1,10 +1,12 @@
 -include env_make
 
 IMAGE_TAG ?= latest
-
+NGINX_VER ?= Latest
+PROJECT_NAME = sustainability-web
+BASE_IMAGE_TAG = $(NGINX_VER)
 
 REGISTRY-IDS = 991404956194
-REPO = $(REGISTRY-IDS).dkr.ecr.us-west-2.amazonaws.com/nrel-sustainability-web
+REPO = $(REGISTRY-IDS).dkr.ecr.us-west-2.amazonaws.com/nrel-$(PROJECT_NAME)
 NAME = sustainability
 
 HEAD_VER ?= =$(shell git log -1 --pretty=tformat:%h)
@@ -38,6 +40,7 @@ default: build
 
 build:
 	docker build -t $(REPO):$(TAG) \
+		--build-arg BASE_IMAGE_TAG=$(BASE_IMAGE_TAG) \
 		./
 
 
@@ -48,9 +51,13 @@ push:
 	docker push $(REPO):$(TAG)
 
 run:
-	docker run --rm --name $(NAME) $(PORTS) $(VOLUMES) $(ENV) $(REPO):$(TAG) $(CMD)
+	docker run --rm --name $(PROJECT_NAME) $(PORTS) $(VOLUMES) $(ENV) $(REPO):$(TAG) $(CMD)
 
 clean:
 	-docker rm -f $(NAME)
 
 release: build push
+
+
+
+include docker.mk

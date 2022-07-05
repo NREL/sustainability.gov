@@ -1,0 +1,60 @@
+version: "3.7"
+
+services:
+  nginx:
+    image: 991404956194.dkr.ecr.us-west-2.amazonaws.com/nrel-split-nginx:$NGINX_TAG
+    container_name: "${PROJECT_NAME}_nginx"
+    environment:
+      NGINX_STATIC_OPEN_FILE_CACHE: "off"
+      NGINX_ERROR_LOG_LEVEL: debug
+      NGINX_BACKEND_HOST: html
+      NGINX_VHOST_PRESET: $NGINX_VHOST_PRESET
+      NGINX_SERVER_ROOT: /var/www/html
+    # volumes:
+    # - ./:/var/www/html:cached
+## Alternative for macOS users: Mutagen https://wodby.com/docs/stacks/php/local#docker-for-mac
+#    - mutagen:/var/www/html
+    labels:
+      - "traefik.http.routers.${PROJECT_NAME}_nginx.entrypoints=web"
+      - "traefik.http.middlewares.${PROJECT_NAME}_https_nginx.redirectscheme.scheme=https"
+      - "traefik.http.routers.${PROJECT_NAME}_https_nginx.rule=Host(`${PROJECT_NAME}.docker.localhost`)"
+      - "traefik.http.routers.${PROJECT_NAME}_https_nginx.entrypoints=web-secure"
+      - "traefik.http.routers.${PROJECT_NAME}_https_nginx.tls=true"
+
+  traefik:
+    image: traefik:v2.2.1
+    container_name: "${PROJECT_NAME}_traefik"
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker"
+      - --providers.file.directory=/etc/traefik/dynamic_conf
+      - '--providers.file.filename=/etc/traefik/dynamic_conf/conf.yml'
+      - --providers.file.watch=true
+      - "--log.level=DEBUG"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.web-secure.address=:443"
+    ports:
+      - '80:80'
+      - '8080:8080'
+      - '443:443'
+      - "50000:50000"
+    # restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik.dynamic.yml:/etc/traefik/dynamic_conf/conf.yml:ro
+      - ./certs/:/certs/
+
+#  mutagen:
+#    build:
+#      context: .
+#      dockerfile: mutagen/Dockerfile
+#    init: true
+#    container_name: "mutagen"
+#    volumes:
+#    - mutagen:/var/www/html
+
+#volumes:
+## Mutagen for macOS users
+#  mutagen:
+## For Xdebug profiler
+#  files:
