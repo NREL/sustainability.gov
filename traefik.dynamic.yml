@@ -1,0 +1,40 @@
+global:
+  checkNewVersion: true
+  sendAnonymousUsage: true
+
+log:
+  level: DEBUG
+
+api:
+  dashboard: true
+
+entryPoints:
+  web:
+    address: ":80"
+  web-secure:
+    address: ":443"
+
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
+    swarmMode: false
+
+tls:
+  certificates:
+    - certFile: /certs/docker_sandbox.pem
+      keyFile: /certs/docker_sandbox.key
+      stores:
+        - default
+
+  options:
+    default:
+      minVersion: VersionTLS12
+      preferServerCipherSuites: true
+
+    mintls13:
+      minVersion: VersionTLS13
+
+accessLog: {}
+
+
