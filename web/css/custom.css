@@ -193,6 +193,7 @@ table td, table th{font-size:80%;line-height:normal;}
 .one_full table{border-top:1px solid #ccc;width:100%;}
 .one_full table td, .one_full table th{border-bottom:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;padding:.5em;}
 .one_full table th{background-color:#efefef;}
+.one_full.agency .plan-wrapper{display:none;}
 .one_half img{height:auto;width:100%;}
 .one_half p{text-align:left;}
 .one_half .performance-col, .news-col, .twitter-col{background-color:rgba(224, 229, 239, .6);display:inline-block;margin-right:1em;margin-top:1em;min-height:34em;padding:2em;} 
