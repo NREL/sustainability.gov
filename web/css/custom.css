@@ -236,6 +236,7 @@ table td, table th{font-size:80%;line-height:normal;}
 .scorecard a:before, .plan a:before{background-color:#ffffff;bottom:0px;border-radius:50%;color:green;content: "\f00e";font-family:FontAwesome;font-size:30px;padding:.5em;position:absolute;right:0px;}
 .plan a:before{content: "\f019";}
 .scorecard:hover a:before, .plan:hover a:before{color:#0064bc;}
+.one_full.agency .plan-wrapper{display:none;}
 .searchform{float:right;margin-bottom:10px;padding-left:10px;padding-top:10px;}
 .flexslider{background-color:#efefef;margin:0 auto;width:1240px;}
 .flexslider_wrapper{background-color:#e0e5ef;}
