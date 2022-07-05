@@ -4,13 +4,13 @@ FROM 991404956194.dkr.ecr.us-west-2.amazonaws.com/nrel-split-nginx:${BASE_IMAGE_
 
 ENV NGINX_BACKEND_HOST="html" \
 NGINX_VHOST_PRESET="html" \
-NGINX_SERVER_ROOT="/var/www/html"
+NGINX_SERVER_ROOT="/var/www/html/web"
 
 USER root
 
 WORKDIR /var/www/html
 
 # Copy everything from project root into html container's working dir
-ADD . /var/www/html/
+COPY web web/
 
 USER wodby
