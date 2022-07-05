@@ -1,0 +1,30 @@
+version: "3.7"
+
+services:
+  nginx:
+    build:
+      context: .
+      args:
+        - BASE_IMAGE_TAG=$NGINX_TAG
+        - NODE_TAG=$NODE_TAG
+    # volumes:
+    # - codebase:/var/www/html
+
+#  crond:
+#    image: 991404956194.dkr.ecr.us-west-2.amazonaws.com/nrel-split-docker4drupal:$DRUPAL_TAG
+    # build:
+    #   context: .
+    #   args:
+    #     - BASE_IMAGE_TAG=$PHP_TAG
+    # image: 991404956194.dkr.ecr.us-west-2.amazonaws.com/nrel-solarpaces-web:$DRUPAL_TAG
+#    environment:
+#      PHP_FPM_CLEAR_ENV: "no"
+  # volumes:
+  #  - codebase:/var/www/html
+
+#   nginx:
+#     volumes:
+#     - codebase:/var/www/html
+
+# volumes:
+#   codebase:

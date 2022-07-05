@@ -1,7 +1,9 @@
 -include env_make
 
 IMAGE_TAG ?= latest
+NGINX_VER ?= Latest
 
+BASE_IMAGE_TAG = $(NGINX_VER)
 
 REGISTRY-IDS = 991404956194
 REPO = $(REGISTRY-IDS).dkr.ecr.us-west-2.amazonaws.com/nrel-sustainability-web
@@ -38,6 +40,7 @@ default: build
 
 build:
 	docker build -t $(REPO):$(TAG) \
+		--build-arg BASE_IMAGE_TAG=$(BASE_IMAGE_TAG) \
 		./
 
 
