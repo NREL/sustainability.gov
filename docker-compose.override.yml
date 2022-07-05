@@ -6,7 +6,6 @@ services:
       context: .
       args:
         - BASE_IMAGE_TAG=$NGINX_TAG
-        - NODE_TAG=$NODE_TAG
     # volumes:
     # - codebase:/var/www/html
 
