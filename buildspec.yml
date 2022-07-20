@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - make build
+      - make NGINX_VER="${NGINX_VER}" build
   post_build:
     commands:
       - echo Build completed on `date`
