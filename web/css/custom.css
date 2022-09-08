@@ -270,7 +270,11 @@ table td, table th{font-size:80%;line-height:normal;}
 .slides li .caption-text.hayhoe{background:none;left:0;top:0;margin:0em;padding:3.5em 2.3em 0em;width:50%;}
 .slides li .caption-text.hayhoe h3{color:#544133;font-size:46px;text-transform: none;text-shadow: none;}
 .slides li .caption-text.hayhoe p{font-size:18px;color:#0f0401;display:block;line-height:1.7em; text-shadow: 0 0 0 0;}
-.slides li .caption-text.hayhoe a{color:#fff;text-decoration: underline;}
+.slides li .caption-text.csbi a{color:#000000;text-decoration: underline;}
+.slides li .caption-text.csbi{background:none;left:0;top:0;margin:0em;}
+.slides li .caption-text.csbi h3{color:#544133;font-size:46px;text-transform: none;text-shadow: none;}
+.slides li .caption-text.csbi p{font-size:18px;color:#0f0401;display:block;line-height:1.7em; text-shadow: 0 0 0 0;}
+.slides li .caption-text.csbi a{color:red;text-decoration: underline;}
 .slides li .caption-text.potus{left:0;top:0;margin:2em;width:35%;}
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
 .flex-control-nav li{background-color:#fff;border:1px solid #fff;cursor: pointer;font-weight:bold;padding:.25em .75em;}
