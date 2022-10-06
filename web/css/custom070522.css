@@ -145,7 +145,7 @@ img.right{margin:0 0 1em 1em;}
 .latest_works p{color:#fff;}
 .list{font-size:14px;}
 .left{float:left;padding:0 2em 1em 0;}
-.left-rail p a{color: #0064bc; text-decoration: underline;}
+.left-rail p a, .accordion-container a{color: #0064bc; text-decoration: underline;}
 .left-rail{float:left;margin-top:2em;width:60%;}
 .left-rail .accordion-container a.header{display:inline-block; font-size:16px; font-weight:bold; line-height:normal;text-indent:-.9em;margin-bottom:0;}
 .left-rail .accordion-container .header span{font-weight:bold;}
@@ -185,6 +185,7 @@ table td, table th{font-size:80%;line-height:normal;}
 .noclear{clear:none;}
 .features_sec39 .limage{margin-top:0;}
 .one_full.agency h3{clear:both;padding-top:40px;}
+.one_full.agency h3.noclear{clear:none;padding-top:0px;}
 .one_full.agency .scorecard-wrapper h3, .one_full.agency .plan-wrapper h3{clear:none;font-weight: 600;padding-top:1em;}
 .one_full .callout p{margin-bottom:10px;}
 .one_full h2, .one_full p{margin-bottom:20px;}
@@ -230,6 +231,8 @@ table td, table th{font-size:80%;line-height:normal;}
 .right-rail{float:right;width:30%;padding-left:20px;padding-right:0;padding-top:20px;}
 .right{float:right;}
 .scorecard-wrapper, .plan-wrapper{background-color:#e0e5ef;display:inline-block;margin:2% 0;padding:2%; width:96%;}
+.plan-wrapper .plan {display:none;}
+.plan-wrapper .download.ca {margin-left:0;}
 .scorecard-wrapper .download, .plan-wrapper .download, .scorecard-wrapper .download a, .plan-wrapper .download a{color:#fff;}
 .scorecard, .plan{background-color:#fff;border:3px solid #ccc;margin:0;float:left;position:relative;margin-right:2em;}
 .scorecard:hover, .plan:hover{border-color:#0064bc;}
