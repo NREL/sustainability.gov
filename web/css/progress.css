@@ -1,0 +1,68 @@
+/* remember to define focus styles! */
+:focus { 
+  outline: 0; 
+}
+/* remember to highlight inserts somehow! */
+ins { 
+  text-decoration: none; 
+}
+del { 
+  text-decoration: line-through; 
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+h2, p{text-align: left;}
+/*- -*/
+#container { 
+  width: 100%; 
+  margin: 0 auto; 
+}
+.one_half .performance-col {
+  min-height:12em;
+}
+.one_half.last .performance-col {
+  width:-webkit-fill-available;
+}
+ul#filterOptions {
+	border-bottom:1px solid #999;
+  padding:0;
+  width: 100%;
+	overflow: hidden;
+}
+ul#filterOptions li { 
+  float: left; 
+  padding-bottom:0;
+}
+ul#filterOptions li a {
+	padding: .75em 1em;
+	border: 1px solid #fff;
+	background: #004884;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+ul#filterOptions li a:hover { 
+  background: rgba(224, 229, 239, .6); 
+  color:#004884;
+}
+ul#filterOptions li.active a { 
+  background: #4698c7;  
+  color:#fff;
+}
+/*- -*/
+/*- OUR DATA HOLDER -*/
+#ourHolder div.item {
+  margin:1em;
+  width: 12em;
+	float: left;
+	text-align: center;
+}
+#ourHolder div.item h3 { margin-top: 10px; font-size: 16px; text-align:center; line-height: 20px; }
+#ourHolder div.item a {display:block; height:10em; margin:auto; position:relative; width:10em;}
+#ourHolder div.item a img {max-height:10em; max-width:10em; position:absolute; bottom:0; left:0;}
+#ourHolder div.item h3 a {display:block; height:4em; margin:auto; position:relative; width:auto;}
+
