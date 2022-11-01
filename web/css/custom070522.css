@@ -57,7 +57,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .dropdown-menu {width:20em;}
 .dropdown-menu .dropdown-item {color:#454545;display:block;font-weight:500;line-height:normal;padding:.75em;}
 .dropdown-menu .dropdown-item.childnav {padding:0.25em .75em;}
-.dropdown-menu .dropdown-item:hover {background-color:#fff;}
+.dropdown-menu .dropdown-item:hover {background-color:#fff;color:#454545;}
 .dropdown-divider{background-color:#ccc;height:1px;}
 .dropdown-toggle::after {
     display: inline-block;
