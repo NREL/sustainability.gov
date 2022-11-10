@@ -25,6 +25,10 @@
 .slides li .caption-text.fbps p a{color:#e0e5ef;font-weight:bold;}
 .slides li .caption-text.fbps .slide-btn a{background-color:#ff1c34;color:#fff;border:none;}
 .slides li .caption-text.fbps .slide-btn a:hover{background-color:#b7d7fc;color:#3c59b7;}
+.slides li .caption-text.fbps.far{background-color:rgba(0, 53, 111, .90);border:none; color:#fff;width:47%;}
+.slides li .caption-text.fbps.far{top:1em; right:1em;padding:2em;} 
+.slides li .caption-text.fbps.far .slide-btn a{background-color:#f9dfa1;color:#00356f;border:none;}
+.slides li .caption-text.fbps.far .slide-btn a:hover{background-color:#d7bb78;color:#00356f;}
 .slides li .caption-text.cap{background-color:rgba(0, 53, 111, .90);border:none; color:#fff;width:30%;}
 .slides li .caption-text.cap{top:2em; right:2em;padding:2em;} 
 .slides li .caption-text.cap h3, .slides li .caption-text.cap p{color:#fff;} 
@@ -37,7 +41,6 @@
 .slides li .caption-text.fsp h3{font-size:55px;text-transform: none;}
 .slides li .caption-text.fsp p{color:#fff;}
 .slides li .caption-text.fsp a{color:#fff;}
-
 .slides li .caption-text.buyclean{background-color:rgba(7, 45, 75, .8);right:0;bottom:0;margin:2em;padding:2em;width:30%;}
 .slides li .caption-text.buyclean p{color:#fff;}
 .slides li .caption-text.buyclean a{color:#fff;}
