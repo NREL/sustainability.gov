@@ -129,24 +129,14 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .workforce .nav-inpage li.active
   {border-left:3px solid #926725;}
 
-.carbon .nav-inpage li.active li.active, 
-.procurement .nav-inpage li.active li.active, 
-.workforce .nav-inpage li.active li.active
-  {border:none}
-
 .carbon .nav-inpage li.active a, 
 .procurement .nav-inpage li.active a, 
 .workforce .nav-inpage li.active a
-  {color:#926725;font-weight:bold;}
+  {color:#926725;}
 
-.carbon .nav-inpage li.active li a, 
-.procurement .nav-inpage li.active li a, 
-.workforce .nav-inpage li.active li a
-  {font-weight:normal;}
-
-.carbon .nav-inpage li.active li.active a, 
-.procurement .nav-inpage li.active li.active a, 
-.workforce .nav-inpage li.active li.active a
+.carbon .nav-inpage a.active, 
+.procurement .nav-inpage a.active, 
+.workforce .nav-inpage a.active
   {font-weight:bold;}
 
 .carbon .container h3, 
@@ -186,24 +176,14 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .partnerships .nav-inpage li.active
   {border-left:3px solid #30804C;}
 
-.buildings .nav-inpage li.active li.active, 
-.resilience .nav-inpage li.active li.active, 
-.partnerships .nav-inpage li.active li.active
-  {border:none;}
-
 .buildings .nav-inpage li.active a, 
 .resilience .nav-inpage li.active a, 
 .partnerships .nav-inpage li.active a
-  {color:#30804C;font-weight:bold;}
+  {color:#30804C;}
 
-.buildings .nav-inpage li.active li a, 
-.resilience .nav-inpage li.active li a, 
-.partnerships .nav-inpage li.active li a
-  {font-weight:normal;}
-
-.buildings .nav-inpage li.active li.active a, 
-.resilience .nav-inpage li.active li.active a, 
-.partnerships .nav-inpage li.active li.active a
+.buildings .nav-inpage a.active, 
+.resilience .nav-inpage a.active, 
+.partnerships .nav-inpage a.active
   {font-weight:bold;}
 
 .buildings .container h3, 
@@ -240,20 +220,15 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .justice .nav-inpage li.active
   {border-left:3px solid #0064BC;}
 
-.fleet .nav-inpage li.active li.active, 
-.emissions .nav-inpage li.active li.active, 
-.justice .nav-inpage li.active li.active
-  {border-left:3px solid #0064BC;}
-
 .fleet .nav-inpage li.active a, 
 .emissions .nav-inpage li.active a, 
 .justice .nav-inpage li.active a
-  {color:#0064BC;font-weight:bold;}
+  {color:#0064BC;}
 
-.fleet .nav-inpage li.active li a, 
-.emissions .nav-inpage li.active li a, 
-.justice .nav-inpage li.active li a
-  {font-weight:normal;}
+.fleet .nav-inpage a.active, 
+.emissions .nav-inpage a.active, 
+.justice .nav-inpage a.active
+  {font-weight:bold;}
 
 .fleet .container h3, 
 .fleet .nav-inpage h3, 
