@@ -43,9 +43,9 @@
 .slides li .caption-text.hayhoe p{color:#fff;}
 .slides li .caption-text.hayhoe a{color:#fff;}
 /**USPS**/
-.slides li .caption-text.usps .slide-btn a{background-color:#888a00; border-color:#888a00;}
-.slides li .caption-text.usps .slide-btn a:hover{background-color:#464b00; border-color:#464b00;color:#fff;}
-.slides li .caption-text.usps{background-color:rgba(25, 32, 0, .9);left:0;top:0;margin:2em;padding:2em;width:40%;}
+.slides li .caption-text.usps .slide-btn a{background-color:#e7003f; border-color:#e7003f;}
+.slides li .caption-text.usps .slide-btn a:hover{background-color:#93032a; border-color:#93032a;color:#fff;}
+.slides li .caption-text.usps{background-color:rgba(26, 44, 109, .9);left:0;top:0;margin:1em;padding:2em 2em 7em;width:45%;}
 .slides li .caption-text.usps h3{font-size:55px;text-transform: none;}
 
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
