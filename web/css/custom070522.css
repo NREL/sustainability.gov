@@ -375,7 +375,6 @@ table td, table th{font-size:80%;line-height:normal;}
 .slides li .caption-text.hayhoe .slide-btn a:hover{background-color:#592a28; border-color:#592a28;text-decoration: none;color:#fff;}
 .slides li .caption-text.csbi .slide-btn a{background-color:#43558b; border-color:#43558b;text-decoration: none;}
 .slides li .caption-text.csbi .slide-btn a:hover{background-color:#4062c7; border-color:#43558b;text-decoration: none;color:#fff;}
-
 .slides li .caption-text.cap{background-color:rgba(0, 53, 111, .90);border:10px solid;border-color:rgba(153, 6, 9, .80); color:#fff;width:30%;}
 .slides li .caption-text.cap{top:2em; right:2em;padding:2em;} 
 .slides li .caption-text.cap h3, .slides li .caption-text.cap p{color:#fff;text-shadow: none;} 
@@ -430,12 +429,14 @@ table td, table th{font-size:80%;line-height:normal;}
   .container{width:90%;}
   .footer1 .one_third:last-of-type h3, .footer1 .one_third:last-of-type .subscribe {margin-left:2.25em;}
   .fsp-header h2{margin-top:4.5em 0 0 0;}
+  .left-rail{display:none;}
 	.logo{width:100%;}
   .menu_main{margin:auto;display:block;}
   .navbar-default .navbar-toggle, .navbar-toggle {float:none;width:100%;}
   .navbar-nav{margin:0px;}
   .navbar-default .navbar-nav > li > a {width:100%;}
   .navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-collapse {float:none;width:100%;}
+  .right-rail{width:100%;}
   .searchform{float:none;width:100%;}
   .searchform .tipue_search_left {width:90%;}
   .searchform .tipue_search_left #tipue_search_input {max-width:none; width:100%;}
