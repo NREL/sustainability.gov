@@ -31,11 +31,13 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .cbp-wrapper{visibility:visible;}
 .chart-thumbs{display:inline-block;width:100%;}
 .content_fullwidth {padding-top:2em;}
-.content_fullwidth .chart-thumbs a{border:1px solid #0064bc;color:#414141;display:inline-block;line-height:normal;margin:5px;min-height:185px;padding:10px;position:relative;text-align:center;width:130px;vertical-align:top;}
+.content_fullwidth .chart-thumbs a{color:#414141;display:inline-block;line-height:normal;margin:2px;min-height:185px;padding:1px;position:relative;text-align:center;width:130px;vertical-align:top;}
 .content_fullwidth .chart-thumbs a:hover{background-color:#e0e5ef;border-color:#004884;}
-.chart-thumbs a img{border:1px solid #ccc;width:100%;}
+.chart-thumbs, .column-charts a img{width:100%;}
 .content_fullwidth .chart-thumbs a{text-decoration: none;}
 .clear{clear:both;}
+.column-charts {float: left;width: 50%;padding: 10px 15px; box-sizing: border-box;}
+.content_fullwidth .column-charts a{color:#414141;text-decoration: none;}
 .container{padding-bottom:10px; margin-top:10px;}
 .content_fullwidth a{color:#0064bc;text-decoration:underline;}
 .content_fullwidth a:hover{color:#004884;}
@@ -49,6 +51,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .download{background-color:rgba(0, 72, 133, .75);margin-left:19em;padding:1em 1em 1em 3em;}
 .download.ca{margin-left:14em;}
 .download:before{content: "\f019";font-family:FontAwesome;font-size:20px;margin-left:-1.5em;padding:0 .5em 0 0;}
+.row:after {content: "";display:table;clear: both;}
 
 .nav-item a {color:#454545;font-family: 'Open Sans', sans-serif; font-weight:500;}
 .nav-item .nav-link:hover, .nav-item .dropdown-toggle:hover, .dropdown-menu {background-color:#e3f0f7;color:#454545;}
@@ -427,6 +430,7 @@ table td, table th{font-size:80%;line-height:normal;}
 	.agency_select{float:none;}
 	.callout{float:none;width:80%;}
   .container{width:90%;}
+	.column-charts {width: 80%;}
   .footer1 .one_third:last-of-type h3, .footer1 .one_third:last-of-type .subscribe {margin-left:2.25em;}
   .fsp-header h2{margin-top:4.5em 0 0 0;}
   .left-rail{display:none;}
