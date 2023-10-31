@@ -1,7 +1,10 @@
 version: 0.2
 
 env:
+  parameter-store:
+    NGINX_VER: /nrel/split/split_nginx_version_stable
   exported-variables:
+    - NGINX_VER
     - CODEBUILD_SOURCE_VERSION
     - CODEBUILD_BUILD_ID
     - CODEBUILD_SOURCE_VERSION_SHORT
