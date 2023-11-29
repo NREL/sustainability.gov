@@ -35,19 +35,7 @@
 .slides li .caption-text.fsp .slide-btn a:hover{background-color:#3299de; border-color:#3299de;color:#fff;}
 .slides li .caption-text.fsp{background-color:rgba(7, 45, 75, .8);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
 .slides li .caption-text.fsp h3{font-size:55px;text-transform: none;}
-/**Lisa Jackson**/
-.slides li .caption-text.hayhoe .slide-btn a{background-color:#b24d61; border-color:#b24d61;}
-.slides li .caption-text.hayhoe .slide-btn a:hover{background-color:#9b293f; border-color:#9b293f;color:#fff;}
-.slides li .caption-text.hayhoe{background:none;left:0;top:0;margin:0em;padding:3.5em 2.3em 0em;width:55%;}
-.slides li .caption-text.hayhoe h3{color:#fff;font-size:46px;text-transform: none;text-shadow: none;}
-.slides li .caption-text.hayhoe p{color:#fff;}
-.slides li .caption-text.hayhoe a{color:#fff;}
-/**Awards**/
-.slides li .caption-text.awards .slide-btn a{background-color:#062444; border-color:#062444;color:#ecc781}
-.slides li .caption-text.awards .slide-btn a:hover{background-color:#054589; border-color:#054589;}
-.slides li .caption-text.awards{background-color:rgba(236, 199, 129, .8);left:0;top:0;margin:1em;padding:1.5em;width:45%;}
-.slides li .caption-text.awards h3{color:#054589;font-size:55px;text-shadow: none;text-transform:none;}
-.slides li .caption-text.awards p{color:#222;}
+
 
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
 .flex-control-nav li{background-color:#fff;border:1px solid #fff;cursor: pointer;font-weight:bold;padding:.25em .75em;}
