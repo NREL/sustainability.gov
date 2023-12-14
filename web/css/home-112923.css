@@ -31,10 +31,15 @@
 .slides li .caption-text.cap .slide-btn a{background-color:#990609;border:none;}
 .slides li .caption-text.cap .slide-btn a:hover{background-color:#B40206;color:#fff;}
 /**Federal Sustainability Plan**/
-.slides li .caption-text.fsp .slide-btn a{background-color:#3478a5; border-color:#3478a5;}
+.slides li .caption-text.fsp .slide-btn a{background-color:#1b78be; border-color:#1b78be;}
 .slides li .caption-text.fsp .slide-btn a:hover{background-color:#3299de; border-color:#3299de;color:#fff;}
-.slides li .caption-text.fsp{background-color:rgba(7, 45, 75, .8);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
+.slides li .caption-text.fsp{background-color:rgba(1, 35, 98, .8);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
 .slides li .caption-text.fsp h3{font-size:55px;text-transform: none;}
+/**Clean Transportation Future**/
+.slides li .caption-text.transport .slide-btn a{background-color:#3478a5; border-color:#3478a5;}
+.slides li .caption-text.transport .slide-btn a:hover{background-color:#3299de; border-color:#3299de;color:#fff;}
+.slides li .caption-text.transport{background-color:rgba(7, 45, 75, .8);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
+.slides li .caption-text.transport h3{text-transform: none;}
 
 
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
