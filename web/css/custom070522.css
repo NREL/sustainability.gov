@@ -244,7 +244,7 @@ ul.bullets li:before{font-family:FontAwesome;color:#454545;content: "\f138";marg
 .right-rail .accordion-container.fleet:hover, .right-rail .accordion-container.emissions:hover, .right-rail .accordion-container.justice:hover, .matrix .fleet{background-color:rgba(0, 100, 188, .1);}
 .right-rail .accordion-container.fleet a.header, .right-rail .accordion-container.emissions a.header, .right-rail .accordion-container.justice a.header{color:#0064BC;}
 .right-rail .accordion-container.fleet::before, .right-rail .accordion-container.emissions::before, .right-rail .accordion-container.justice::before{color:#414141;}
-.fsp-icons{display:inline-block;width:70%;}
+.fsp-icons{display:inline-block;width:65%;}
 .fsp-icons ul{clear:both;}
 .fsp-icons li{display:inline-block;float:left;font-family: 'Raleway', sans-serif; font-size:150%; font-weight:600; line-height:normal; width:26%; padding:3%; position:relative; text-align:center;}
 .fsp-icons li img{height:auto;width:100%;}
@@ -425,6 +425,10 @@ table td, table th{font-size:80%;line-height:normal;}
 .backtotop a{font-size:80%;text-decoration:none;text-transform:uppercase;}
 .wrapper_boxed{width:auto;}
 
+@media only screen and (min-width: 767px) and (max-width:1000px){
+.fsp-icons li{display:inline-block;width:45%; padding:3%; position:relative;left:25%}
+}
+	
 @media only screen and (max-width: 767px) {
 	#trueHeader #logo {background-size:contain;min-width: auto;}
 	.agency_select{float:none;}
@@ -450,4 +454,5 @@ table td, table th{font-size:80%;line-height:normal;}
   .flex-control-nav{margin:10px;}
   .flexslider{width:auto;}
 	.logo{margin-bottom:0;width:100%;}
+.fsp-icons li{display:inline-block;width:80%; padding:3%; position:relative; left:25%;}
 }
