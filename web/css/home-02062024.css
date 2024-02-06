@@ -49,15 +49,17 @@
 
 
 
-@media only screen and (max-width: 1200px) and (min-width:756px) {
+@media only screen and (max-width: 1200px) and (min-width:768px) {
 
 /**New slides should be adjusted for various screen sizes**/
-  .slides li .caption-text.fbps, .slides li .caption-text.fbps.far, .slides li .caption-text.cap, .slides li .caption-text.fsp, .slides li .caption-text.transport {top:10px;left:10px;width:auto;}
+  .slides li .caption-text.fbps, .slides li .caption-text.fbps.far, .slides li .caption-text.cap, .slides li .caption-text.fsp, .slides li .caption-text.transport {top:10px;left:10px;bottom:10px; margin:2em; padding:2em; width:auto;}
+	
+	.slides li .caption-text.fbps.far h3 {font-size:45px;}
   .flex-control-nav{margin:10px;}
   .flexslider{width:auto;}
 }
 	
-@media only screen and (max-width: 756px) {
+@media only screen and (max-width: 768px) {
 
 	.slides {display: none;}
 	.flex-control-nav{display: none;}
