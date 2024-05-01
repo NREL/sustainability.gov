@@ -17,19 +17,6 @@
 .slides li .caption-text.fbps p a{color:#e0e5ef;font-weight:bold;}
 .slides li .caption-text.fbps .slide-btn a{background-color:#ff1c34;color:#fff;border:none;}
 .slides li .caption-text.fbps .slide-btn a:hover{background-color:#b7d7fc;color:#3c59b7;}
-/**Federal Supplier Climate Risks and Resilience Proposed Rule**/
-.slides li .caption-text.fbps.far{background-color:rgba(0, 53, 111, .90);border:none; color:#fff;width:47%;}
-.slides li .caption-text.fbps.far{top:1em; right:1em;padding:2em;} 
-.slides li .caption-text.fbps.far .slide-btn a{background-color:#f9dfa1;color:#00356f;border:none;}
-.slides li .caption-text.fbps.far .slide-btn a:hover{background-color:#d7bb78;color:#00356f;}
-/**Climate Adaptation Plan**/
-.slides li .caption-text.cap{background-color:rgba(0, 53, 111, .90);border:none; color:#fff;width:40%;}
-.slides li .caption-text.cap{top:2em; right:2em;padding:2em;} 
-.slides li .caption-text.cap h3, .slides li .caption-text.cap p{color:#fff;} 
-.slides li .caption-text.cap p{color:#e0e5ef;} 
-.slides li .caption-text.cap p a{color:#e0e5ef;font-weight:bold;}
-.slides li .caption-text.cap .slide-btn a{background-color:#990609;border:none;}
-.slides li .caption-text.cap .slide-btn a:hover{background-color:#B40206;color:#fff;}
 /**Federal Sustainability Plan**/
 .slides li .caption-text.fsp .slide-btn a{background-color:#1b78be; border-color:#1b78be;}
 .slides li .caption-text.fsp .slide-btn a:hover{background-color:#3299de; border-color:#3299de;color:#fff;}
@@ -52,9 +39,7 @@
 @media only screen and (max-width: 1200px) and (min-width:768px) {
 
 /**New slides should be adjusted for various screen sizes**/
-  .slides li .caption-text.fbps, .slides li .caption-text.fbps.far, .slides li .caption-text.cap, .slides li .caption-text.fsp, .slides li .caption-text.transport {top:10px;left:10px;bottom:10px; margin:2em; padding:2em; width:auto;}
-	
-	.slides li .caption-text.fbps.far h3 {font-size:45px;}
+  .slides li .caption-text.fbps, .slides li .caption-text.fsp, .slides li .caption-text.transport {top:10px;left:10px;bottom:10px; margin:2em; padding:2em; width:auto;}
   .flex-control-nav{margin:10px;}
   .flexslider{width:auto;}
 }
