@@ -27,6 +27,11 @@
 .slides li .caption-text.transport .slide-btn a:hover{background-color:#3299de; border-color:#3299de;color:#fff;}
 .slides li .caption-text.transport{background-color:rgba(7, 45, 75, .8);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
 .slides li .caption-text.transport h3{text-transform: none;}
+/**Scope  3 Emissions**/
+.slides li .caption-text.fed-emissions .slide-btn a{background-color:#b28e2f; border-color:#b28e2f;}
+.slides li .caption-text.fed-emissions .slide-btn a:hover{background-color:#3299de; border-color:#3299de;color:#fff;}
+.slides li .caption-text.fed-emissions{background-color:rgba(0, 72, 132, .9);right:0;bottom:0;margin:2em;padding:2em;width:40%;}
+.slides li .caption-text.fed-emissions h3{text-transform: none;}
 
 
 .flex-control-nav{position:absolute;bottom:.5em;left:0;margin:2em;width:auto;z-index:2;}
@@ -39,7 +44,7 @@
 @media only screen and (max-width: 1200px) and (min-width:768px) {
 
 /**New slides should be adjusted for various screen sizes**/
-  .slides li .caption-text.fbps, .slides li .caption-text.fsp, .slides li .caption-text.transport {top:10px;left:10px;bottom:10px; margin:2em; padding:2em; width:auto;}
+  .slides li .caption-text.fbps, .slides li .caption-text.fsp, .slides li .caption-text.transport, .slides li .caption-text.fed-emissions {top:10px;left:10px;bottom:10px; margin:2em; padding:2em; width:auto;}
   .flex-control-nav{margin:10px;}
   .flexslider{width:auto;}
 }
